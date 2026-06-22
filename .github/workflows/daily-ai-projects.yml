@@ -38,4 +38,4 @@ jobs:
           git add ai_projects/
           # 只在有新文件时提交
           git diff --staged --quiet || git commit -m "更新AI项目发现报告 $(date +'%Y-%m-%d')"
-          git push
+          git push origin master

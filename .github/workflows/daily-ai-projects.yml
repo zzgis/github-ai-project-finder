@@ -29,7 +29,15 @@ jobs:
           pip install -r requirements.txt
 
       - name: 运行AI项目发现脚本
-        run: python github_ai_projects.py
+        run: python github_ai_projects.py --email
+        env:
+          SMTP_ENABLED: ${{ secrets.SMTP_ENABLED }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SENDER: ${{ secrets.SMTP_SENDER }}
+          SMTP_RECIPIENT: ${{ secrets.SMTP_RECIPIENT }}
 
       - name: 提交结果到仓库
         run: |

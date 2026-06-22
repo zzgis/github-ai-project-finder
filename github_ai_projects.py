@@ -7,6 +7,9 @@ GitHub AI项目发现器
 import requests
 import json
 import os
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import time
 
@@ -165,7 +168,93 @@ class GitHubAIProjectFinder:
         print(f"Markdown报告已保存到: {md_filepath}")
         return report
 
-    def run(self):
+    def generate_html_email(self, report):
+        """生成HTML格式的邮件内容"""
+        html = f"""
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {{ font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }}
+        h1 {{ color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }}
+        h2 {{ color: #34495e; margin-top: 30px; }}
+        .project {{ background: #f8f9fa; border-left: 4px solid #3498db; padding: 15px; margin: 15px 0; border-radius: 4px; }}
+        .project-name {{ font-size: 18px; font-weight: bold; color: #2980b9; }}
+        .project-desc {{ color: #555; margin: 8px 0; }}
+        .project-meta {{ font-size: 14px; color: #777; }}
+        .project-link {{ color: #3498db; text-decoration: none; }}
+        .project-link:hover {{ text-decoration: underline; }}
+        .stats {{ display: inline-block; margin-right: 15px; }}
+        .footer {{ margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; font-size: 12px; color: #999; }}
+    </style>
+</head>
+<body>
+    <h1>GitHub AI项目每日发现报告</h1>
+    <p><strong>日期:</strong> {report['date']}</p>
+"""
+        total_projects = 0
+        for category, projects in report["categories"].items():
+            html += f"    <h2>{category} ({len(projects)}个项目)</h2>\n"
+            for project in projects:
+                total_projects += 1
+                topics_html = ""
+                if project['topics']:
+                    topics_html = f"<br><span class='project-meta'>标签: {', '.join(project['topics'][:5])}</span>"
+                html += f"""
+    <div class="project">
+        <div class="project-name">{project['name']}</div>
+        <div class="project-desc">{project['description'] or '无描述'}</div>
+        <div class="project-meta">
+            <span class="stats">⭐ {project['stars']}</span>
+            <span class="stats">🍴 {project['forks']}</span>
+            <span class="stats">语言: {project['language'] or '未知'}</span>
+            {topics_html}
+        </div>
+        <a href="{project['html_url']}" class="project-link">查看项目 →</a>
+    </div>
+"""
+        html += f"""
+    <div class="footer">
+        <p>共发现 {total_projects} 个项目 | 自动生成于 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
+        <p>GitHub AI项目每日发现器</p>
+    </div>
+</body>
+</html>
+"""
+        return html
+
+    def send_email(self, report, smtp_config):
+        """发送邮件"""
+        if not smtp_config.get("enabled"):
+            print("[邮件] 邮件发送未启用，跳过")
+            return False
+
+        try:
+            # 创建邮件
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = f"GitHub AI项目每日发现 - {report['date']}"
+            msg["From"] = smtp_config["sender"]
+            msg["To"] = smtp_config["recipient"]
+
+            # 添加HTML内容
+            html_content = self.generate_html_email(report)
+            msg.attach(MIMEText(html_content, "html", "utf-8"))
+
+            # 连接SMTP服务器并发送
+            print(f"[邮件] 正在连接SMTP服务器 {smtp_config['server']}:{smtp_config['port']}...")
+            with smtplib.SMTP(smtp_config["server"], smtp_config["port"]) as server:
+                server.starttls()
+                server.login(smtp_config["username"], smtp_config["password"])
+                server.send_message(msg)
+                print(f"[邮件] 邮件已发送至 {smtp_config['recipient']}")
+                return True
+
+        except Exception as e:
+            print(f"[邮件] 发送失败: {e}")
+            return False
+
+    def run(self, send_email=False):
         """运行发现器"""
         print("[开始] 发现GitHub AI项目...")
         print(f"时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -196,8 +285,23 @@ class GitHubAIProjectFinder:
         print(f"\n[完成] 共发现 {sum(len(v.get('items', [])) if v else 0 for v in all_results.values())} 个项目")
         print(f"文件保存在: {os.path.abspath(self.output_dir)}")
 
+        # 发送邮件
+        if send_email:
+            smtp_config = {
+                "enabled": os.environ.get("SMTP_ENABLED", "false").lower() == "true",
+                "server": os.environ.get("SMTP_SERVER", "smtp.gmail.com"),
+                "port": int(os.environ.get("SMTP_PORT", "587")),
+                "username": os.environ.get("SMTP_USERNAME", ""),
+                "password": os.environ.get("SMTP_PASSWORD", ""),
+                "sender": os.environ.get("SMTP_SENDER", ""),
+                "recipient": os.environ.get("SMTP_RECIPIENT", "")
+            }
+            self.send_email(report, smtp_config)
+
         return report
 
 if __name__ == "__main__":
+    import sys
+    send_email = "--email" in sys.argv
     finder = GitHubAIProjectFinder()
-    finder.run()
+    finder.run(send_email=send_email)

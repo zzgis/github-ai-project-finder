@@ -32,6 +32,10 @@ class GitHubAIProjectFinder:
 
         try:
             response = requests.get(url, headers=self.headers, params=params)
+            if response.status_code == 403:
+                print("API速率限制，等待60秒后重试...")
+                time.sleep(60)
+                response = requests.get(url, headers=self.headers, params=params)
             response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as e:
@@ -170,17 +174,17 @@ class GitHubAIProjectFinder:
 
         # 1. 新发布的AI项目
         all_results["新发布的AI项目"] = self.get_new_ai_projects(days=1)
-        time.sleep(1)  # 避免API限制
+        time.sleep(5)  # 增加等待时间避免API限制
 
         # 2. 热门AI项目
         all_results["热门AI项目"] = self.get_popular_ai_projects(min_stars=100)
-        time.sleep(1)
+        time.sleep(5)
 
         # 3. 特定AI领域项目
         ai_domains = ["machine learning", "deep learning", "nlp", "computer vision"]
         for domain in ai_domains:
             all_results[f"{domain.title()}项目"] = self.get_ai_domain_projects(domain)
-            time.sleep(1)
+            time.sleep(5)
 
         # 4. AI工具和库
         all_results["AI工具和库"] = self.get_ai_tools_libraries()

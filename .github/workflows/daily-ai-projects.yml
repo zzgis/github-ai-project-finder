@@ -1,0 +1,41 @@
+name: 每日AI项目发现
+
+on:
+  schedule:
+    # 每天北京时间早上9点运行 (UTC 01:00)
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  discover-ai-projects:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置Python环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 运行AI项目发现脚本
+        run: python github_ai_projects.py
+
+      - name: 提交结果到仓库
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ai_projects/
+          # 只在有新文件时提交
+          git diff --staged --quiet || git commit -m "更新AI项目发现报告 $(date +'%Y-%m-%d')"
+          git push

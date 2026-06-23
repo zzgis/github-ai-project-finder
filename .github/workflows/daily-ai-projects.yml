@@ -2,8 +2,8 @@ name: 每日AI项目发现
 
 on:
   schedule:
-    # 每天北京时间早上9点运行 (UTC 01:00)
-    - cron: '0 1 * * *'
+    # 测试：每5分钟触发一次
+    - cron: '*/5 * * * *'
   workflow_dispatch: # 允许手动触发
 
 permissions:

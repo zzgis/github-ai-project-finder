@@ -11,13 +11,13 @@
 ### browser-search
 - 描述: A skill for AI agents: search the web with SearXNG, browse with Camofox, bypass protections with CloakBrowser. Self-hosted, free, unlimited.
 - 链接: https://github.com/Johell1NS/browser-search
-- ⭐ 122 | 🍴 15 | 语言: JavaScript
+- ⭐ 127 | 🍴 15 | 语言: JavaScript
 - 标签: ai-agent, ai-tools, browser-automation, camoufox, cloakbrowser
 
 ### motion-skills
 - 描述: 50 open-source skills that teach your AI coding agent to make motion graphics, animation & video — kinetic typography, data-viz, explainers, TikTok/Reels, WebGL, Manim. 14 installable packs. By iart.ai, the AI motion agent.
 - 链接: https://github.com/iart-ai/motion-skills
-- ⭐ 112 | 🍴 5 | 语言: HTML
+- ⭐ 113 | 🍴 6 | 语言: HTML
 - 标签: ai-agents, claude-code, motion-graphics, remotion, skills
 
 ### claude-code-fable-5-free-app
@@ -41,7 +41,7 @@
 ### MD_Redactor
 - 描述: A simple Markdown editor for adding inline edits and review notes directly into MD files for AI-assisted workflows.
 - 链接: https://github.com/aresyn/MD_Redactor
-- ⭐ 54 | 🍴 0 | 语言: C#
+- ⭐ 57 | 🍴 0 | 语言: C#
 - 标签: ai-agents, ai-assisted, dotnet, editor, markdown
 
 ### pulse-system-tutorial
@@ -72,13 +72,13 @@
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 34804 | 🍴 7291 | 语言: 未知
+- ⭐ 34806 | 🍴 7291 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
 - 描述: Visualizer for neural network, deep learning and machine learning models
 - 链接: https://github.com/lutzroeder/netron
-- ⭐ 33119 | 🍴 3136 | 语言: JavaScript
+- ⭐ 33120 | 🍴 3136 | 语言: JavaScript
 - 标签: ai, coreml, deep-learning, deeplearning, keras
 
 ### onnx
@@ -128,13 +128,13 @@
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 34804 | 🍴 7291 | 语言: 未知
+- ⭐ 34806 | 🍴 7291 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
 - 描述: Visualizer for neural network, deep learning and machine learning models
 - 链接: https://github.com/lutzroeder/netron
-- ⭐ 33119 | 🍴 3136 | 语言: JavaScript
+- ⭐ 33121 | 🍴 3136 | 语言: JavaScript
 - 标签: ai, coreml, deep-learning, deeplearning, keras
 
 ### cheatsheets-ai
@@ -158,7 +158,7 @@
 ### pwnagotchi
 - 描述: (⌐■_■) - Deep Reinforcement Learning instrumenting bettercap for WiFi pwning.
 - 链接: https://github.com/evilsocket/pwnagotchi
-- ⭐ 9112 | 🍴 1231 | 语言: Python
+- ⭐ 9113 | 🍴 1231 | 语言: Python
 - 标签: ai, bettercap, deep-learning, deep-neural-network, deep-reinforcement-learning
 
 ### jetson-inference
@@ -182,7 +182,7 @@
 ### awesome-ai-in-finance
 - 描述: 🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.
 - 链接: https://github.com/georgezouq/awesome-ai-in-finance
-- ⭐ 6146 | 🍴 721 | 语言: 未知
+- ⭐ 6149 | 🍴 722 | 语言: 未知
 - 标签: analysis, awesome, awesome-list, cryptocurrency, deep-learning
 
 ## Nlp项目
@@ -195,19 +195,19 @@
 ### LlamaFactory
 - 描述: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 - 链接: https://github.com/hiyouga/LlamaFactory
-- ⭐ 72417 | 🍴 8861 | 语言: Python
+- ⭐ 72418 | 🍴 8861 | 语言: Python
 - 标签: agent, ai, deepseek, fine-tuning, gemma
 
 ### AI-For-Beginners
 - 描述: 12 Weeks, 24 Lessons, AI for All!
 - 链接: https://github.com/microsoft/AI-For-Beginners
-- ⭐ 48403 | 🍴 10039 | 语言: Jupyter Notebook
+- ⭐ 48405 | 🍴 10040 | 语言: Jupyter Notebook
 - 标签: ai, artificial-intelligence, cnn, computer-vision, deep-learning
 
 ### system_prompts_leaks
 - 描述: Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.
 - 链接: https://github.com/asgeirtj/system_prompts_leaks
-- ⭐ 45364 | 🍴 7457 | 语言: JavaScript
+- ⭐ 45383 | 🍴 7457 | 语言: JavaScript
 - 标签: ai, ai-agents, anthropic, awesome, chatbot
 
 ### ailearning
@@ -219,13 +219,13 @@
 ### ai-engineering-from-scratch
 - 描述: Learn it. Build it. Ship it for others.
 - 链接: https://github.com/rohitg00/ai-engineering-from-scratch
-- ⭐ 35961 | 🍴 5865 | 语言: Python
+- ⭐ 35972 | 🍴 5866 | 语言: Python
 - 标签: agents, ai, ai-agents, ai-engineering, computer-vision
 
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 34804 | 🍴 7291 | 语言: 未知
+- ⭐ 34806 | 🍴 7291 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### spaCy
@@ -251,7 +251,7 @@
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 34804 | 🍴 7291 | 语言: 未知
+- ⭐ 34806 | 🍴 7291 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### skyvern
@@ -313,43 +313,43 @@
 ### openclaw
 - 描述: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 - 链接: https://github.com/openclaw/openclaw
-- ⭐ 380135 | 🍴 79601 | 语言: TypeScript
+- ⭐ 380142 | 🍴 79604 | 语言: TypeScript
 - 标签: ai, assistant, crustacean, molty, openclaw
 
 ### superpowers
 - 描述: An agentic skills framework & software development methodology that works.
 - 链接: https://github.com/obra/superpowers
-- ⭐ 236864 | 🍴 21022 | 语言: Shell
+- ⭐ 236887 | 🍴 21022 | 语言: Shell
 - 标签: ai, brainstorming, coding, obra, sdlc
 
 ### hermes-agent
 - 描述: The agent that grows with you
 - 链接: https://github.com/NousResearch/hermes-agent
-- ⭐ 200810 | 🍴 35806 | 语言: Python
+- ⭐ 200853 | 🍴 35819 | 语言: Python
 - 标签: ai, ai-agent, ai-agents, anthropic, chatgpt
 
 ### n8n
 - 描述: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - 链接: https://github.com/n8n-io/n8n
-- ⭐ 193793 | 🍴 58785 | 语言: TypeScript
+- ⭐ 193805 | 🍴 58787 | 语言: TypeScript
 - 标签: ai, apis, automation, cli, data-flow
 
 ### AutoGPT
 - 描述: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - 链接: https://github.com/Significant-Gravitas/AutoGPT
-- ⭐ 185114 | 🍴 46119 | 语言: Python
+- ⭐ 185116 | 🍴 46118 | 语言: Python
 - 标签: agentic-ai, agents, ai, artificial-intelligence, autonomous-agents
 
 ### prompts.chat
 - 描述: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - 链接: https://github.com/f/prompts.chat
-- ⭐ 164184 | 🍴 21263 | 语言: HTML
+- ⭐ 164192 | 🍴 21262 | 语言: HTML
 - 标签: ai, artificial-intelligence, awesome-list, chatgpt, chatgpt-prompts
 
 ### stable-diffusion-webui
 - 描述: Stable Diffusion web UI
 - 链接: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- ⭐ 163854 | 🍴 30362 | 语言: Python
+- ⭐ 163854 | 🍴 30363 | 语言: Python
 - 标签: ai, ai-art, deep-learning, diffusion, gradio
 
 ### JavaGuide
@@ -361,12 +361,12 @@
 ### langflow
 - 描述: Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
 - 链接: https://github.com/langflow-ai/langflow
-- ⭐ 149985 | 🍴 9329 | 语言: Python
+- ⭐ 149986 | 🍴 9329 | 语言: Python
 - 标签: agents, chatgpt, generative-ai, large-language-models, multiagent
 
 ### dify
 - 描述: Production-ready platform for agentic workflow development.
 - 链接: https://github.com/langgenius/dify
-- ⭐ 146305 | 🍴 23011 | 语言: TypeScript
+- ⭐ 146315 | 🍴 23012 | 语言: TypeScript
 - 标签: agent, agentic-ai, agentic-framework, agentic-workflow, ai
 

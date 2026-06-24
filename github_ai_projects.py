@@ -12,6 +12,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import time
+from ai_analyzer import AIProjectAnalyzer
 
 class GitHubAIProjectFinder:
     def __init__(self):
@@ -21,6 +22,7 @@ class GitHubAIProjectFinder:
             "User-Agent": "GitHub-AI-Project-Finder"
         }
         self.output_dir = "ai_projects"
+        self.analyzer = AIProjectAnalyzer()
         os.makedirs(self.output_dir, exist_ok=True)
 
     def search_repositories(self, query, sort="stars", order="desc", per_page=10):
@@ -126,7 +128,7 @@ class GitHubAIProjectFinder:
 
         return projects
 
-    def generate_report(self, all_results):
+    def generate_report(self, all_results, enable_ai=True):
         """生成每日报告"""
         timestamp = datetime.now().strftime("%Y%m%d")
         report = {
@@ -141,6 +143,11 @@ class GitHubAIProjectFinder:
                 for repo in results["items"]:
                     projects.append(self.format_project(repo))
                 report["categories"][category] = projects
+
+        # AI分析
+        if enable_ai:
+            print("\n[AI分析] 开始AI分析...")
+            report = self.analyzer.generate_analysis_report(report)
 
         # 保存报告
         report_filename = f"ai_projects_report_{timestamp}.json"
@@ -163,6 +170,10 @@ class GitHubAIProjectFinder:
                     f.write(f"- ⭐ {project['stars']} | 🍴 {project['forks']} | 语言: {project['language'] or '未知'}\n")
                     if project['topics']:
                         f.write(f"- 标签: {', '.join(project['topics'][:5])}\n")
+                    # AI分析结果
+                    if project.get('ai_analysis', {}).get('analyzed'):
+                        f.write(f"\n**AI分析：**\n")
+                        f.write(f"{project['ai_analysis']['analysis']}\n")
                     f.write("\n")
 
         print(f"Markdown报告已保存到: {md_filepath}")

@@ -64,7 +64,7 @@ class AIProjectAnalyzer:
         language = project.get("language", "")
         stars = project.get("stars", 0)
 
-        prompt = f"""请分析以下GitHub项目：
+        prompt = f"""请分析以下GitHub项目，并将所有内容翻译成中文：
 
 项目名称：{name}
 项目描述：{description}
@@ -72,10 +72,11 @@ class AIProjectAnalyzer:
 星标数：{stars}
 标签：{', '.join(topics) if topics else '无'}
 
-请提供：
-1. **核心功能**（3-5个要点）
-2. **适用场景**（2-4个具体使用场景）
-3. **技术亮点**（如有）
+请提供（全部使用中文回答）：
+1. **中文简介**（将项目描述翻译成流畅的中文，2-3句话）
+2. **核心功能**（3-5个要点）
+3. **适用场景**（2-4个具体使用场景）
+4. **技术亮点**（如有）
 
 请简洁明了地回答，每个要点用一句话概括。"""
 

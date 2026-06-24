@@ -165,15 +165,15 @@ class GitHubAIProjectFinder:
                 f.write(f"## {category}\n\n")
                 for project in projects:
                     f.write(f"### {project['name']}\n")
-                    f.write(f"- 描述: {project['description'] or '无描述'}\n")
+                    # 优先显示AI翻译的中文简介
+                    if project.get('ai_analysis', {}).get('analyzed'):
+                        f.write(f"- {project['ai_analysis']['analysis']}\n")
+                    else:
+                        f.write(f"- 描述: {project['description'] or '无描述'}\n")
                     f.write(f"- 链接: {project['html_url']}\n")
                     f.write(f"- ⭐ {project['stars']} | 🍴 {project['forks']} | 语言: {project['language'] or '未知'}\n")
                     if project['topics']:
                         f.write(f"- 标签: {', '.join(project['topics'][:5])}\n")
-                    # AI分析结果
-                    if project.get('ai_analysis', {}).get('analyzed'):
-                        f.write(f"\n**AI分析：**\n")
-                        f.write(f"{project['ai_analysis']['analysis']}\n")
                     f.write("\n")
 
         print(f"Markdown报告已保存到: {md_filepath}")

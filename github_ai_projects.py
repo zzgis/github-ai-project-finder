@@ -192,7 +192,8 @@ class GitHubAIProjectFinder:
         h2 {{ color: #34495e; margin-top: 30px; }}
         .project {{ background: #f8f9fa; border-left: 4px solid #3498db; padding: 15px; margin: 15px 0; border-radius: 4px; }}
         .project-name {{ font-size: 18px; font-weight: bold; color: #2980b9; }}
-        .project-desc {{ color: #555; margin: 8px 0; }}
+        .project-desc {{ color: #555; margin: 8px 0; white-space: pre-line; }}
+        .project-desc strong {{ color: #2c3e50; }}
         .project-meta {{ font-size: 14px; color: #777; }}
         .project-link {{ color: #3498db; text-decoration: none; }}
         .project-link:hover {{ text-decoration: underline; }}
@@ -215,7 +216,7 @@ class GitHubAIProjectFinder:
                 html += f"""
     <div class="project">
         <div class="project-name">{project['name']}</div>
-        <div class="project-desc">{project['description'] or '无描述'}</div>
+        <div class="project-desc">{project['ai_analysis']['analysis'] if project.get('ai_analysis', {}).get('analyzed') else (project['description'] or '无描述')}</div>
         <div class="project-meta">
             <span class="stats">⭐ {project['stars']}</span>
             <span class="stats">🍴 {project['forks']}</span>

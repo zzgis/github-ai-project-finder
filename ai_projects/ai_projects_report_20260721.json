@@ -8,13 +8,39 @@
         "full_name": "Blaizzy/nativ",
         "description": "Local AI, native to your Mac. Chat, serve, monitor, and connect MLX models from one macOS app.",
         "html_url": "https://github.com/Blaizzy/nativ",
-        "stars": 599,
+        "stars": 607,
         "forks": 34,
         "language": "Swift",
         "created_at": "2026-07-20T15:37:29Z",
-        "updated_at": "2026-07-21T21:49:54Z",
+        "updated_at": "2026-07-21T23:12:37Z",
         "topics": [],
         "license": "MIT License",
+        "ai_analysis": {
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
+        }
+      },
+      {
+        "name": "open-kritt",
+        "full_name": "Kritt-ai/open-kritt",
+        "description": "Orchestrate AI agents to find real vulnerabilities in code.",
+        "html_url": "https://github.com/Kritt-ai/open-kritt",
+        "stars": 251,
+        "forks": 47,
+        "language": "JavaScript",
+        "created_at": "2026-07-20T20:26:24Z",
+        "updated_at": "2026-07-21T22:56:56Z",
+        "topics": [
+          "agent",
+          "agents",
+          "ai",
+          "bug-bounty",
+          "bugbounty",
+          "bugbounty-tools",
+          "security",
+          "security-research"
+        ],
+        "license": "GNU Affero General Public License v3.0",
         "ai_analysis": {
           "analyzed": false,
           "analysis": "分析失败或未配置API"
@@ -50,41 +76,15 @@
         }
       },
       {
-        "name": "open-kritt",
-        "full_name": "Kritt-ai/open-kritt",
-        "description": "Orchestrate AI agents to find real vulnerabilities in code.",
-        "html_url": "https://github.com/Kritt-ai/open-kritt",
-        "stars": 248,
-        "forks": 46,
-        "language": "JavaScript",
-        "created_at": "2026-07-20T20:26:24Z",
-        "updated_at": "2026-07-21T22:02:11Z",
-        "topics": [
-          "agent",
-          "agents",
-          "ai",
-          "bug-bounty",
-          "bugbounty",
-          "bugbounty-tools",
-          "security",
-          "security-research"
-        ],
-        "license": "GNU Affero General Public License v3.0",
-        "ai_analysis": {
-          "analyzed": true,
-          "analysis": "1. **中文简介**\nOpen-Kritt 是一个旨在编排 AI 智能体以在代码中发现真实漏洞的工具。它通过协同多个 AI 代理，自动化执行安全研究和漏洞挖掘流程。该项目专注于提高代码安全审计的效率与准确性。\n\n2. **核心功能**\n- 编排多个 AI 智能体协同工作，提升漏洞发现的深度与广度。\n- 专注于识别代码中实际存在的安全漏洞，而非理论性缺陷。\n- 集成 Bug Bounty（漏洞赏金）工具链，支持自动化安全研究流程。\n- 提供智能化的代码扫描与分析能力，辅助开发者快速定位风险。\n\n3. **适用场景**\n- 安全研究人员利用 AI 自动化进行大规模代码库的漏洞扫描。\n- 企业开发团队在日常 CI/CD 流水线中集成自动化安全审查。\n- Bug Bounty 参与者使用智能体辅助发现高价值漏洞以提升奖励获取率。\n- 需要高效识别复杂代码逻辑中潜在安全风险的第三方安全审计机构。\n\n4. **技术亮点**\n- 采用多智能体协作架构，模拟人类安全专家的多维度分析思维。\n- 针对 JavaScript 生态优化，能够深入理解前端及 Node.js 后端代码特性。\n- 结合前沿大语言模型能力，实现从代码静态分析到动态漏洞验证的闭环。"
-        }
-      },
-      {
         "name": "thinking-orbs",
         "full_name": "Jakubantalik/thinking-orbs",
         "description": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light",
         "html_url": "https://github.com/Jakubantalik/thinking-orbs",
-        "stars": 135,
+        "stars": 152,
         "forks": 8,
         "language": "TypeScript",
         "created_at": "2026-07-21T07:01:53Z",
-        "updated_at": "2026-07-21T22:12:35Z",
+        "updated_at": "2026-07-21T23:13:00Z",
         "topics": [],
         "license": "MIT License",
         "ai_analysis": {
@@ -246,7 +246,7 @@
         "license": "",
         "ai_analysis": {
           "analyzed": true,
-          "analysis": "1. **中文简介**\nfunNLP 是一个功能极其丰富的中文自然语言处理资源聚合仓库，汇集了海量预训练模型、数据集、工具库及行业术语词库。它旨在为开发者提供从基础文本清洗、实体识别到高级知识图谱构建的一站式解决方案，极大降低了中文 NLP 项目的开发门槛。\n\n2. **核心功能**\n*   **基础文本处理与清洗**：提供敏感词过滤、繁简转换、中英文混排处理、标点修复及文本纠错等实用工具。\n*   **实体识别与信息抽取**：集成基于 BERT 等模型的命名实体识别（NER）、关键词抽取、关系抽取及事件三元组提取功能。\n*   **大规模语料与词库资源**：涵盖医学、法律、金融、汽车等专业领域的词库、成语库、古诗词库及千万级问答数据集。\n*   **语音与自然语言生成**：包含中文语音识别（ASR）工具、情感分析模型、自动摘要算法以及聊天机器人（Chatbot）相关资源。\n*   **知识图谱构建与应用**：提供知识图谱构建工具、百科数据、人物关系图谱及基于图谱的问答系统案例。\n\n3. **适用场景**\n*   **智能客服与聊天机器人开发**：利用其中的对话语料、闲聊模型及意图识别工具，快速构建具备上下文理解能力的客服系统。\n*   **垂直领域信息抽取系统**：在医疗、法律或金融等行业应用中，使用专业词库和预训练的 NER/关系抽取模型提取关键结构化信息。\n*   **文本内容审核与安全风控**：通过内置的敏感词库、暴恐词表及谣言检测数据集，实现自动化内容过滤和风险识别。\n*   **NLP 教学与研究参考**：作为学生和研究人员的学习资源库，获取各类 NLP 任务的最佳实践代码、数据集及前沿论文解读。\n\n4. **技术亮点**\n该项目最大的亮点在于其**资源的全面性与集成度**，不仅包含了主流框架（如 SpaCy, BERT, ALBERT）的中文适配版本，还整合了大量小众但实用的垂直领域数据（如汽车零件、中药材），是中文 NLP 开发者不可或缺的“百科全书”式参考库。"
+          "analysis": "1. **中文简介**\n该项目是中文自然语言处理（NLP）领域的综合性资源库，汇集了丰富的中文数据集、预训练模型、工具包及应用案例。它涵盖了从基础的分词、实体识别到高级的知识图谱构建、对话系统及语音识别等多方面的开源资源，旨在降低中文NLP的开发门槛。\n\n2. **核心功能**\n*   **基础NLP工具与资源**：提供结巴分词加速版、繁简转换、情感分析、停用词库及多种语言模型（BERT、GPT等）的中文适配。\n*   **知识图谱与实体抽取**：包含大量领域特定的实体库（如人名、地名、公司名）、NER标注数据及知识图谱构建工具。\n*   **数据集与评测基准**：汇总了中文阅读理解、对话机器人、谣言检测、医疗及金融等领域的权威数据集和评测基准。\n*   **多模态与垂直应用**：集成语音识别（ASR）、OCR文字识别、文本生成摘要以及医疗、法律等垂直行业的专用模型和数据。\n\n3. **适用场景**\n*   **学术研究**：研究人员可利用其提供的数据集和SOTA模型复现论文或开展中文NLP相关算法创新。\n*   **工业界开发**：开发者可直接引用其中的工具包（如Jieba、HanLP等）或预训练模型，快速搭建中文信息抽取、客服机器人或内容审核系统。\n*   **数据标注与清洗**：团队可使用其推荐的标注工具（如Doccano）和标准数据集进行高质量中文语料的标注和预处理。\n\n4. **技术亮点**\n该项目不仅是工具集合，更是一个“中文NLP生态地图”，特别强调了对中文特有任务（如分词、繁体转换、中文NER）的深度优化和多源数据的整合，极大缩短了从数据准备到模型部署的路径。"
         }
       },
       {
@@ -310,8 +310,8 @@
         ],
         "license": "MIT License",
         "ai_analysis": {
-          "analyzed": true,
-          "analysis": "1. **中文简介**\nNetron 是一款用于可视化神经网络、深度学习及机器学习模型的通用工具。它支持多种主流框架生成的模型文件，帮助用户直观地理解模型结构和参数。\n\n2. **核心功能**\n*   广泛支持包括 ONNX、TensorFlow、PyTorch、Keras、CoreML 等在内的多种模型格式。\n*   提供直观的图形化界面展示网络层级结构与数据流向。\n*   支持模型结构的搜索、过滤及节点详情查看，便于调试与分析。\n*   作为独立应用或浏览器扩展运行，无需安装复杂的依赖环境即可使用。\n*   兼容 safetensors 等新兴安全模型格式，紧跟技术发展趋势。\n\n3. **适用场景**\n*   **模型架构审查**：快速检查已训练模型的网络结构是否符合设计预期。\n*   **跨框架迁移验证**：在将模型从 PyTorch 转换为 TensorFlow 或 ONNX 时，对比前后结构一致性。\n*   **教学与演示**：向非技术人员或学生直观展示复杂神经网络的内部工作原理。\n*   **模型调试**：定位模型推理过程中的异常层或参数问题。\n\n4. **技术亮点**\n*   极高的格式兼容性，几乎涵盖当前所有主流 AI 框架的输出标准。\n*   轻量级且开箱即用，无需配置 GPU 或大型运行时环境即可查看模型。"
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
         }
       },
       {
@@ -375,8 +375,8 @@
         ],
         "license": "Creative Commons Attribution Share Alike 4.0 International",
         "ai_analysis": {
-          "analyzed": true,
-          "analysis": "1. **中文简介**\n《机器学习工程开放书籍》是一部全面指导机器学习系统构建与部署的开源资源。它深入探讨了从底层硬件优化到大规模模型训练及推理的工程实践。该书旨在为AI工程师提供一套完整的、可落地的技术指南。\n\n2. **核心功能**\n*   提供GPU集群配置、网络通信及存储优化的详细最佳实践。\n*   涵盖大规模语言模型（LLM）的训练技巧、调试方法及可扩展性架构。\n*   详解推理服务优化、模型量化及分布式训练框架的使用。\n*   介绍基于Slurm等调度器的集群管理策略及Mlops工作流集成。\n*   包含针对PyTorch和Transformers库的性能调优与故障排查指南。\n\n3. **适用场景**\n*   需要搭建和维护大规模GPU训练集群的基础设施团队。\n*   致力于优化大语言模型训练成本与效率的研究工程师。\n*   负责生产环境模型部署、推理加速及高可用性保障的后端开发团队。\n*   希望深入了解机器学习系统底层原理及性能瓶颈分析的资深开发者。\n\n4. **技术亮点**\n*   内容紧跟前沿，特别针对Transformer架构和大模型时代的需求进行了深度定制。\n*   强调实战性，提供了大量关于硬件选型、网络拓扑及软件栈配置的实操建议。\n*   作为“开放书籍”形式，内容持续更新且免费开源，是MLOps领域的高质量参考资源。"
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
         }
       },
       {
@@ -549,7 +549,7 @@
         "license": "",
         "ai_analysis": {
           "analyzed": true,
-          "analysis": "1. **中文简介**\n这是一个收录了500个AI相关项目的代码库，涵盖机器学习、深度学习、计算机视觉及自然语言处理领域。该项目作为一份“Awesome”列表，为开发者提供了丰富的实战代码示例与技术参考。\n\n2. **核心功能**\n*   提供海量AI项目源码，覆盖主流算法与模型实现。\n*   分类整理计算机视觉与自然语言处理等垂直领域案例。\n*   集成Python生态下的典型机器学习与深度学习应用。\n*   作为资源聚合平台，降低初学者寻找高质量Demo的门槛。\n\n3. **适用场景**\n*   AI初学者快速上手，通过阅读代码理解基础算法逻辑。\n*   研究人员寻找特定任务（如图像识别、文本生成）的参考实现。\n*   开发者在构建新项目时，复用或借鉴成熟的代码模块。\n*   企业技术团队进行前沿AI技术的调研与选型评估。\n\n4. **技术亮点**\n*   **规模宏大**：包含500个项目，覆盖面极广，是一站式学习资源。\n*   **分类清晰**：标签化组织，便于用户根据兴趣快速定位计算机视觉、NLP等特定方向。\n*   **实战导向**：强调“with code”，提供可运行的实际案例而非纯理论。"
+          "analysis": "1. **中文简介**\n这是一个汇集了500个涵盖机器学习、深度学习、计算机视觉及自然语言处理领域的AI项目合集，且均附带完整代码实现。该项目旨在为开发者提供一个全面的资源库，帮助快速入门或深入探索人工智能的各个分支领域。\n\n2. **核心功能**\n- 提供大量已分类的AI实战项目，覆盖主流技术栈。\n- 所有项目均包含可运行的源代码，便于直接学习和复现。\n- 内容跨越机器学习、深度学习、CV和NLP等多个核心子领域。\n- 经过社区筛选与标记，具有极高的参考价值和权威性。\n\n3. **适用场景**\n- 初学者寻找高质量的入门实战案例以巩固理论知识。\n- 开发者需要快速构建原型时参考现成的代码实现。\n- 研究人员或学生希望了解特定AI领域（如NLP或CV）的最新应用趋势。\n\n4. **技术亮点**\n- 高人气与高可信度：拥有超过3.5万星，是GitHub上最知名的AI资源库之一。\n- 标签化管理：通过细致的标签（如awesome、data-science等）方便用户按领域精准检索。"
         }
       },
       {
@@ -582,8 +582,8 @@
         ],
         "license": "MIT License",
         "ai_analysis": {
-          "analyzed": true,
-          "analysis": "1. **中文简介**\nNetron 是一款用于可视化神经网络、深度学习及机器学习模型的通用工具。它支持多种主流框架生成的模型文件，帮助用户直观地理解模型结构和参数。\n\n2. **核心功能**\n*   广泛支持包括 ONNX、TensorFlow、PyTorch、Keras、CoreML 等在内的多种模型格式。\n*   提供直观的图形化界面展示网络层级结构与数据流向。\n*   支持模型结构的搜索、过滤及节点详情查看，便于调试与分析。\n*   作为独立应用或浏览器扩展运行，无需安装复杂的依赖环境即可使用。\n*   兼容 safetensors 等新兴安全模型格式，紧跟技术发展趋势。\n\n3. **适用场景**\n*   **模型架构审查**：快速检查已训练模型的网络结构是否符合设计预期。\n*   **跨框架迁移验证**：在将模型从 PyTorch 转换为 TensorFlow 或 ONNX 时，对比前后结构一致性。\n*   **教学与演示**：向非技术人员或学生直观展示复杂神经网络的内部工作原理。\n*   **模型调试**：定位模型推理过程中的异常层或参数问题。\n\n4. **技术亮点**\n*   极高的格式兼容性，几乎涵盖当前所有主流 AI 框架的输出标准。\n*   轻量级且开箱即用，无需配置 GPU 或大型运行时环境即可查看模型。"
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
         }
       },
       {
@@ -608,7 +608,7 @@
         "license": "MIT License",
         "ai_analysis": {
           "analyzed": true,
-          "analysis": "1. **中文简介**\n该项目为深度学习与机器学习研究人员提供了至关重要的速查表集合。内容涵盖了从基础库到高级框架的核心概念与常用代码片段，旨在帮助研究者快速回顾知识并提高开发效率。\n\n2. **核心功能**\n*   提供深度学习与机器学习领域关键概念和公式的快速参考指南。\n*   包含主流框架（如Keras）及数值计算库（如NumPy、SciPy）的常用操作示例。\n*   集成数据可视化工具（如Matplotlib）的使用技巧和配置方法。\n*   整理人工智能研究中的通用最佳实践和常见陷阱提示。\n\n3. **适用场景**\n*   机器学习初学者在入门阶段需要快速查阅算法原理和基础语法时。\n*   资深研究人员在进行新模型实验前，用于快速回顾特定库的高级用法。\n*   开发者在调试代码或优化数据处理流程时，作为即时参考手册使用。\n*   团队内部进行技术培训或知识分享时，作为标准化的学习资料。\n\n4. **技术亮点**\n*   高度浓缩的知识结构，将复杂的AI理论转化为易于记忆的要点。\n*   覆盖范围广，从底层数学运算到高层框架应用均有涉及。\n*   由社区维护并经过大量用户验证（高星标数），内容实用性强。"
+          "analysis": "1. **中文简介**\n这是一个专为深度学习与机器学习研究人员设计的实用速查表集合。它涵盖了从基础数学库到主流深度学习框架的核心代码片段和关键概念，旨在帮助开发者快速回顾和查阅常用技术细节。该项目内容源自知名技术博主 Kailash Ahirwar 的系列文章。\n\n2. **核心功能**\n*   提供 NumPy、SciPy 等科学计算库的高效操作指令与语法示例。\n*   总结 Matplotlib 数据可视化的常见绘图技巧与配置方法。\n*   整理 Keras 等深度学习框架的模型构建、训练及评估关键代码。\n*   梳理人工智能与机器学习领域的基础算法原理及实现要点。\n\n3. **适用场景**\n*   研究人员在搭建实验环境或编写论文代码时，用于快速检索常用库的 API 用法。\n*   开发者在进行数据预处理或可视化展示时，参考高效的代码模板以提升开发效率。\n*   学生或初级工程师学习深度学习框架时，作为辅助记忆的速查手册。\n\n4. **技术亮点**\n*   高度浓缩的知识结构，将复杂的技术文档简化为易读的代码片段。\n*   覆盖从数据处理到模型训练的全流程关键技术栈，具有极强的实战参考价值。"
         }
       },
       {
@@ -838,8 +838,8 @@
         "topics": [],
         "license": "",
         "ai_analysis": {
-          "analyzed": false,
-          "analysis": "分析失败或未配置API"
+          "analyzed": true,
+          "analysis": "1. **中文简介**\nfunNLP 是一个功能丰富的中文自然语言处理工具包，旨在为开发者提供从基础文本处理到高级语义分析的多样化资源。它整合了敏感词检测、实体抽取、情感分析及多种专业领域词典，并汇集了海量的NLP数据集、预训练模型及前沿技术报告。该项目是构建中文智能客服、信息抽取系统及文本分析应用的理想基础库。\n\n2. **核心功能**\n*   **基础文本处理**：支持中英文敏感词过滤、繁简转换、中英文姓名/手机号/邮箱/身份证抽取及拼音标注。\n*   **语义与情感分析**：提供词汇情感值计算、同/反义词库、否定词库，以及基于BERT等模型的文本分类和情感分析工具。\n*   **知识图谱与实体识别**：内置中日文人名库、行业专用词库（如汽车、医疗、法律），并集成NER（命名实体识别）及关系抽取算法。\n*   **数据资源聚合**：汇集了大量中文NLP数据集（如问答、谣言、对话语料）及主流预训练模型（BERT, ALBERT, RoBERTa等）。\n*   **高级应用工具**：包含聊天机器人框架、文本摘要生成、OCR文字识别辅助及语音识别相关资源。\n\n3. **适用场景**\n*   **智能客服与聊天机器人开发**：利用其对话语料、意图识别工具及多轮对话框架快速搭建垂直领域问答系统。\n*   **舆情监控与内容安全审核**：借助敏感词库、暴恐词表及谣言检测功能，对社交媒体或用户生成内容进行自动化合规审查。\n*   **企业级信息抽取与结构化**：从非结构化文本（如简历、新闻、合同）中精准提取人名、机构名、日期及关键实体，构建企业知识图谱。\n*   **NLP算法研究与教学**：作为学习中文自然语言处理的资源库，参考其提供的竞赛方案、论文解读及基准数据集进行模型训练与评估。\n\n4. **技术亮点**\n*   **资源全面且本土化**：不仅包含通用NLP能力，还深度覆盖了中文特有的分词、繁简转换、拼音及大量垂直行业（医疗、法律、金融）词典。\n*   **紧跟前沿模型**：集成了BERT、GPT-2、ALBERT、RoBERTa等多种最新预训练语言模型及其微调代码，便于快速复现SOTA效果。\n*   **模块化与扩展性强**：提供了从底层数据处理（如OCR、ASR）到上层应用（如摘要、生成）的全链路工具链，支持灵活组合使用。"
         }
       },
       {
@@ -876,8 +876,8 @@
         ],
         "license": "Apache License 2.0",
         "ai_analysis": {
-          "analyzed": true,
-          "analysis": "1. **中文简介**\nLlamaFactory 是一个统一且高效的微调框架，支持对 100 多种大语言模型（LLM）和多模态大模型（VLM）进行训练。该项目集成了指令微调、RLHF 及量化等技术，旨在降低大模型定制化的门槛并提升效率。作为 ACL 2024 收录的研究成果，它为开发者提供了从数据处理到模型部署的一站式解决方案。\n\n2. **核心功能**\n*   支持超过 100 种主流大模型及多模态模型的统一高效微调。\n*   内置多种先进的微调策略，包括 LoRA、QLoRA、全量微调及 RLHF。\n*   提供完整的训练流水线，涵盖数据预处理、模型训练及推理评估。\n*   支持高效的模型量化技术，显著降低显存占用并加速推理过程。\n*   兼容 Transformers 生态，方便用户快速集成现有模型架构。\n\n3. **适用场景**\n*   企业或个人开发者希望基于开源基座模型（如 Llama 3、Qwen、Gemma）构建垂直领域专用模型。\n*   需要利用有限计算资源通过参数高效微调方法（如 QLoRA）训练大型模型的场景。\n*   希望通过指令微调或人类反馈强化学习（RLHF）对齐模型行为以符合特定应用需求的任务。\n*   研究人员希望快速实验不同模型架构在特定数据集上的微调效果与性能表现。\n\n4. **技术亮点**\n*   **高兼容性**：无缝支持当前主流的大语言模型家族及新兴的多模态架构。\n*   **资源优化**：通过 QLoRA 等量化微调技术，实现低显存环境下的高效训练。\n*   **全流程整合**：将数据准备、多种微调算法及评估指标集成于单一工具链中，简化工作流。"
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
         }
       },
       {
@@ -886,7 +886,7 @@
         "description": "12 Weeks, 24 Lessons, AI for All!",
         "html_url": "https://github.com/microsoft/AI-For-Beginners",
         "stars": 52539,
-        "forks": 10636,
+        "forks": 10635,
         "language": "Jupyter Notebook",
         "created_at": "2021-03-03T16:27:36Z",
         "updated_at": "2026-07-21T22:02:14Z",
@@ -942,8 +942,8 @@
         ],
         "license": "Other",
         "ai_analysis": {
-          "analyzed": true,
-          "analysis": "### 1. 中文简介\n该项目是一个涵盖数据分析、机器学习实战以及深度学习（PyTorch/TensorFlow 2）的综合学习资源库，同时辅以线性代数和自然语言处理（NLTK）的基础知识。它提供了从经典算法到前沿模型的完整代码实现与教程，旨在帮助学习者系统掌握人工智能核心技术。\n\n### 2. 核心功能\n*   **多框架支持**：整合了 PyTorch 和 TensorFlow 2 等主流深度学习框架的实战案例。\n*   **经典算法实现**：包含 SVM、K-Means、AdaBoost、Apriori 等常见机器学习算法的代码详解。\n*   **NLP 专项训练**：提供基于 NLTK 的自然语言处理技术及 RNN/LSTM 等序列模型应用。\n*   **数学基础巩固**：结合线性代数知识，深入解析 PCA、SVD 等降维与矩阵运算原理。\n*   **推荐系统构建**：涵盖基于协同过滤和内容推荐的系统设计与实现逻辑。\n\n### 3. 适用场景\n*   **AI 初学者入门**：适合希望从零开始系统学习数据分析与机器学习理论及实践的新手。\n*   **高校课程辅助**：可作为计算机相关专业的课外补充材料，辅助理解线性代数与算法原理。\n*   **面试准备与复习**：适合求职者快速回顾常用算法（如 SVM、随机森林）的核心代码与概念。\n*   **项目原型开发**：为需要快速搭建推荐系统或 NLP 基础模块的开发者提供可参考的代码模板。\n\n### 4. 技术亮点\n*   **理论与实践深度融合**：不仅提供代码，还强调背后的数学原理（如线性代数），帮助理解算法本质。\n*   **全栈式学习路径**：覆盖了从传统机器学习（scikit-learn）到现代深度学习（PyTorch/TF2）的完整技术栈。\n*   **高社区认可度**：拥有超过 42,000 个 Star，证明其内容质量、更新频率和社区实用性极高。"
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
         }
       },
       {
@@ -951,11 +951,11 @@
         "full_name": "rohitg00/ai-engineering-from-scratch",
         "description": "Learn it. Build it. Ship it for others.",
         "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-        "stars": 41435,
-        "forks": 6888,
+        "stars": 41450,
+        "forks": 6891,
         "language": "Python",
         "created_at": "2026-03-18T18:38:02Z",
-        "updated_at": "2026-07-21T22:14:34Z",
+        "updated_at": "2026-07-21T23:13:18Z",
         "topics": [
           "agents",
           "ai",
@@ -980,8 +980,8 @@
         ],
         "license": "MIT License",
         "ai_analysis": {
-          "analyzed": true,
-          "analysis": "### 1. **中文简介**\n该项目旨在通过从零开始构建的方式，深入掌握人工智能工程的核心原理与实战技巧。它不仅涵盖了理论学习，更强调将模型部署并交付给最终用户使用的完整闭环能力。适合希望系统性地从基础到高级掌握AI开发流程的学习者。\n\n### 2. **核心功能**\n*   **全栈AI工程实践**：涵盖从机器学习、深度学习到生成式AI及大语言模型（LLM）的端到端构建流程。\n*   **智能体与多智能体系统**：专注于AI Agents、MCP（模型上下文协议）、群集智能及强化学习的开发与应用。\n*   **多模态处理能力**：包含计算机视觉和自然语言处理（NLP）的具体实现教程。\n*   **跨语言技术栈支持**：结合Python与Rust进行高性能开发，并提供TypeScript相关集成内容。\n*   **系统化课程体系**：以教程形式呈现，提供结构化的学习路径和实操案例。\n\n### 3. **适用场景**\n*   **AI工程师进阶学习**：适合已具备基础知识的开发者，希望深入理解模型底层原理并提升工程落地能力。\n*   **生成式AI应用开发**：适用于需要构建基于LLM的智能代理、RAG系统或复杂多智能体协作应用的团队。\n*   **高性能AI系统搭建**：适合需要将Python模型与Rust高性能组件结合，以优化推理速度或资源占用的项目。\n*   **学术研究与教学参考**：可作为高校或培训机构关于现代AI工程实践的课程教材或实验指导。\n\n### 4. **技术亮点**\n*   **前沿技术覆盖全面**：紧跟AI领域最新趋势，整合了Transformers、Reinforcement Learning及Swarm Intelligence等热门方向。\n*   **“从零开始”的深度解析**：不依赖黑盒API，而是引导用户亲手构建组件，从而获得对AI系统更深层次的控制力和理解力。\n*   **工程化导向明确**：强调“Ship it”（交付/上线），注重代码的可维护性、部署策略及实际生产环境的适配性。"
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
         }
       },
       {
@@ -1016,11 +1016,11 @@
         "full_name": "explosion/spaCy",
         "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
         "html_url": "https://github.com/explosion/spaCy",
-        "stars": 33758,
+        "stars": 33759,
         "forks": 4696,
         "language": "Python",
         "created_at": "2014-07-03T15:15:40Z",
-        "updated_at": "2026-07-21T21:04:17Z",
+        "updated_at": "2026-07-21T22:49:23Z",
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -1079,11 +1079,11 @@
         "full_name": "deepset-ai/haystack",
         "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
         "html_url": "https://github.com/deepset-ai/haystack",
-        "stars": 25971,
+        "stars": 25972,
         "forks": 2945,
         "language": "Python",
         "created_at": "2019-11-14T09:05:28Z",
-        "updated_at": "2026-07-21T21:05:18Z",
+        "updated_at": "2026-07-21T22:27:13Z",
         "topics": [
           "agent",
           "agents",
@@ -1113,11 +1113,11 @@
         "full_name": "huggingface/datasets",
         "description": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
         "html_url": "https://github.com/huggingface/datasets",
-        "stars": 21730,
+        "stars": 21731,
         "forks": 3306,
         "language": "Python",
         "created_at": "2020-03-26T09:23:22Z",
-        "updated_at": "2026-07-21T14:04:26Z",
+        "updated_at": "2026-07-21T22:25:37Z",
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -1168,7 +1168,7 @@
         "license": "",
         "ai_analysis": {
           "analyzed": true,
-          "analysis": "1. **中文简介**\n这是一个包含500个AI、机器学习、深度学习、计算机视觉及自然语言处理项目的代码库集合。它汇集了丰富的实战案例，涵盖从基础算法到前沿应用的多种技术方向。该项目旨在为开发者提供全面的学习资源和代码参考。\n\n2. **核心功能**\n- 收录500多个涵盖AI各子领域的完整项目代码。\n- 支持机器学习、深度学习、计算机视觉和NLP等多类任务。\n- 提供结构化的项目分类，便于快速检索和学习。\n- 包含Python等主流编程语言的实现示例。\n- 作为“Awesome”列表，整合了高质量开源资源。\n\n3. **适用场景**\n- AI初学者进行系统性学习和代码实践。\n- 研究人员寻找特定领域（如CV或NLP）的参考实现。\n- 开发者构建AI应用时的灵感来源和技术验证。\n- 教育机构用于教学案例展示和项目作业布置。\n\n4. **技术亮点**\n- 项目数量庞大且覆盖范围广，形成完整的知识图谱。\n- 标签体系清晰，精准匹配人工智能主要细分领域。\n- 高星标（35k+）证明其社区认可度和资源价值极高。"
+          "analysis": "### 1. 中文简介\n该项目是一个精选的AI资源库，汇集了500个涵盖机器学习、深度学习、计算机视觉和自然语言处理领域的完整代码项目。它旨在为开发者提供丰富的实战案例，帮助用户快速掌握各细分领域的核心技术与应用方法。\n\n### 2. 核心功能\n- **全栈AI覆盖**：内容横跨机器学习、深度学习、计算机视觉及自然语言处理四大主流AI领域。\n- **代码即学即用**：每个项目均附带可运行的源代码，支持直接下载学习或二次开发。\n- **结构化分类**：通过清晰的标签体系对500个项目进行归类，便于按技术栈快速检索。\n- **社区精选认证**：作为Awesome列表类项目，经过社区筛选，确保资源的质量与实用性。\n\n### 3. 适用场景\n- **初学者入门**：适合AI新手通过阅读和运行完整项目代码，快速理解基础算法实现。\n- **技能提升**：帮助有经验的工程师通过复现经典项目，巩固特定领域（如CV或NLP）的专业技能。\n- **灵感参考**：为正在进行相关课题研究的开发者提供项目架构设计和数据处理的最佳实践参考。\n\n### 4. 技术亮点\n- **零门槛获取**：作为纯资源聚合库，无需复杂环境配置即可浏览所有项目链接和代码结构。\n- **高活跃度**：拥有超过35k的星标，证明其在AI社区中具有极高的认可度和持续维护价值。"
         }
       },
       {
@@ -1176,11 +1176,11 @@
         "full_name": "Skyvern-AI/skyvern",
         "description": "Automate browser based workflows with AI",
         "html_url": "https://github.com/Skyvern-AI/skyvern",
-        "stars": 22541,
+        "stars": 22542,
         "forks": 2113,
         "language": "Python",
         "created_at": "2024-02-28T15:45:19Z",
-        "updated_at": "2026-07-21T21:12:17Z",
+        "updated_at": "2026-07-21T23:08:22Z",
         "topics": [
           "ai",
           "api",
@@ -1240,7 +1240,7 @@
         "license": "MIT License",
         "ai_analysis": {
           "analyzed": true,
-          "analysis": "1. **中文简介**\nCVAT（计算机视觉标注工具）是构建高质量视觉数据集的领先平台，提供开源、云端及企业级产品。它支持图像、视频和3D数据的AI辅助标注、质量控制及团队协作，并配备开发者API以赋能视觉AI开发。\n\n2. **核心功能**\n*   支持图像、视频及3D点云的高精度数据标注与分类。\n*   集成AI辅助标注功能，显著提升数据标注效率与准确性。\n*   提供完善的质量保证机制与多人实时团队协作能力。\n*   开放开发者API，便于集成到现有工作流或自动化管道中。\n\n3. **适用场景**\n*   需要大规模构建图像分类或目标检测训练数据集的研发团队。\n*   涉及复杂视频行为分析或3D场景重建的计算机视觉项目。\n*   对数据标注质量有严格要求且需多人协作的企业级应用开发。\n\n4. **技术亮点**\n*   兼容PyTorch、TensorFlow等主流深度学习框架生态。\n*   支持从语义分割到边界框等多种细粒度标注任务类型。"
+          "analysis": "### CVAT 项目分析\n\n1. **中文简介**\n   CVAT 是构建高质量视觉数据集的首选平台，支持图像、视频及 3D 数据的标注。它提供开源、云版和企业级产品，并配备 AI 辅助标注、质量保证及团队协作等功能，助力视觉 AI 开发。\n\n2. **核心功能**\n   * 支持图像、视频和 3D 数据的多种标注任务，包括边界框、语义分割等。\n   * 集成 AI 辅助标注与质量保证机制，显著提升数据处理效率与准确性。\n   * 提供完善的团队协作品台及开发者 API，便于大规模项目管理与集成。\n\n3. **适用场景**\n   * 计算机视觉模型训练前的数据清洗与标注工作。\n   * 需要多人协作处理大规模视频或图像数据集的企业级项目。\n   * 希望利用 AI 工具加速标注流程以缩短研发周期的研发团队。\n\n4. **技术亮点**\n   * 基于 Python 开发，深度兼容 PyTorch 和 TensorFlow 等主流深度学习框架。\n   * 提供从开源到企业级的灵活部署方案，满足不同规模的数据处理需求。"
         }
       },
       {
@@ -1275,7 +1275,7 @@
         "license": "MIT License",
         "ai_analysis": {
           "analyzed": true,
-          "analysis": "1. **中文简介**\n该项目致力于提升计算机视觉领域的AI可解释性，支持CNN、Vision Transformers等多种模型架构。它广泛兼容分类、目标检测、分割及图像相似度计算等任务，提供先进的可视化分析能力。\n\n2. **核心功能**\n- 支持Grad-CAM、Score-CAM等多种主流可解释性算法实现。\n- 兼容卷积神经网络（CNN）与视觉Transformer（ViT）等主流深度学习模型。\n- 覆盖图像分类、目标检测、语义分割及图像相似度比对等多类任务。\n- 提供直观的可视化输出，帮助理解模型决策依据。\n\n3. **适用场景**\n- 深度学习模型的调试与错误分析，定位模型关注区域。\n- 医疗影像或自动驾驶等高可靠性要求领域的模型信任度评估。\n- 学术研究中的模型可解释性对比实验与论文结果可视化。\n\n4. **技术亮点**\n- 高度模块化设计，无缝集成PyTorch生态，支持即插即用的可视化扩展。\n- 广泛适配前沿架构（如Vision Transformers），保持技术领先性。"
+          "analysis": "1. **中文简介**\n该项目旨在为计算机视觉提供高级的可解释性AI功能，支持卷积神经网络（CNN）和视觉Transformer等多种模型。它不仅涵盖分类任务，还扩展至目标检测、图像分割及相似度计算等复杂场景。\n\n2. **核心功能**\n*   全面支持CNN与Vision Transformer架构的可视化分析。\n*   适用于图像分类、目标检测、语义分割及图像相似度比对等多种任务。\n*   集成Grad-CAM、Score-CAM等多种主流可解释性算法以实现模型内部决策过程的透明化。\n\n3. **适用场景**\n*   深度学习模型调试，通过可视化热力图定位模型关注的图像区域以排查错误。\n*   医疗影像或自动驾驶等高风险领域，验证AI决策依据是否符合人类专家逻辑。\n*   学术研究，用于对比不同架构（如CNN vs ViT）在特征提取上的差异性。\n\n4. **技术亮点**\n*   广泛兼容各类主流视觉模型结构，提供了极高的灵活性和即插即用的便利性。\n*   不仅限于传统的分类任务，还深入支持检测与分割等高级视觉任务的解释性分析。"
         }
       },
       {
@@ -1303,8 +1303,8 @@
         ],
         "license": "Apache License 2.0",
         "ai_analysis": {
-          "analyzed": false,
-          "analysis": "分析失败或未配置API"
+          "analyzed": true,
+          "analysis": "\n\n以下是针对 GitHub 项目 **kornia** 的分析报告：\n\n1. **中文简介**\nKornia是一款专为空间人工智能设计的几何计算机视觉库。它基于PyTorch构建，将传统视觉几何算法全面可微分化，能够无缝嵌入现代深度学习训练流程。\n\n2. **核心功能**\n- 提供全套可微分的图像增强、滤波与预处理算子，支持端到端梯度传播。\n- 内置相机标定、单应性估计、立体视觉等经典几何计算模块。\n- 原生兼容PyTorch张量体系，全面支持GPU加速与TorchScript"
         }
       },
       {
@@ -1453,11 +1453,11 @@
         "full_name": "openclaw/openclaw",
         "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
         "html_url": "https://github.com/openclaw/openclaw",
-        "stars": 383719,
-        "forks": 80631,
+        "stars": 383722,
+        "forks": 80632,
         "language": "TypeScript",
         "created_at": "2025-11-24T10:16:47Z",
-        "updated_at": "2026-07-21T22:13:54Z",
+        "updated_at": "2026-07-21T22:58:32Z",
         "topics": [
           "ai",
           "assistant",
@@ -1469,8 +1469,8 @@
         ],
         "license": "Other",
         "ai_analysis": {
-          "analyzed": true,
-          "analysis": "**1. 中文简介**\nOpenClaw 是一款支持任意操作系统和平台的个人 AI 助手，强调数据自主权与跨平台兼容性。它采用 TypeScript 开发，以独特的“龙虾”理念为用户提供私密、可控的 AI 服务体验。\n\n**2. 核心功能**\n*   全平台兼容：可在任何操作系统上运行，实现无缝接入。\n*   数据私有化：支持“Own-your-data”理念，确保用户数据完全由自己掌控。\n*   个性化助理：作为专属个人 AI 助手，提供定制化的智能交互服务。\n*   开源生态：基于开放标准构建，便于社区参与和技术扩展。\n\n**3. 适用场景**\n*   注重隐私的个人用户：希望拥有完全本地化、数据不泄露的 AI 助手。\n*   多设备办公人士：需要在不同操作系统（如 Windows、macOS、Linux）间切换并保持一致的 AI 辅助体验。\n*   开发者与技术极客：喜欢自定义配置、探索开源 AI 工具链的技术爱好者。\n\n**4. 技术亮点**\n*   基于 TypeScript 开发，类型安全且易于维护，适合现代前端与后端混合架构。\n*   高度模块化设计，支持灵活集成各种 AI 模型与服务提供商。"
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
         }
       },
       {
@@ -1478,11 +1478,11 @@
         "full_name": "obra/superpowers",
         "description": "An agentic skills framework & software development methodology that works.",
         "html_url": "https://github.com/obra/superpowers",
-        "stars": 258743,
+        "stars": 258753,
         "forks": 23064,
         "language": "Shell",
         "created_at": "2025-10-09T19:45:18Z",
-        "updated_at": "2026-07-21T22:10:58Z",
+        "updated_at": "2026-07-21T23:04:52Z",
         "topics": [
           "ai",
           "brainstorming",
@@ -1495,8 +1495,8 @@
         ],
         "license": "MIT License",
         "ai_analysis": {
-          "analyzed": true,
-          "analysis": "1. **中文简介**\nSuperPowers 是一套行之有效的智能体技能框架与软件开发方法论。它通过“子代理驱动开发”模式，将复杂的软件开发生命周期分解为可执行的智能体技能。该项目旨在利用 AI 能力自动化并优化从头脑风暴到代码实现的全过程。\n\n2. **核心功能**\n- 提供基于技能的框架，支持模块化地定义和执行开发任务。\n- 采用子代理驱动开发（Subagent-driven Development），实现任务的自动分解与并行处理。\n- 整合完整的软件开发生命周期（SDLC），涵盖从需求 brainstorming 到编码实现的各个环节。\n- 具备强大的 AI 协作能力，作为辅助智能体提升开发效率和质量。\n\n3. **适用场景**\n- 希望利用 AI 自动化执行复杂软件开发流程的团队。\n- 需要结构化方法论来规范智能体在编码和调试中行为的开发者。\n- 探索下一代软件开发范式，如子代理协作与技能化 AI 应用的团队。\n\n4. **技术亮点**\n- 创新性地提出了“子代理驱动开发”这一新范式，区别于传统的单一 Prompt 工程。\n- 将 AI 能力嵌入标准 SDLC 流程，实现了从非结构化想法到结构化代码的平滑过渡。"
+          "analyzed": false,
+          "analysis": "分析失败或未配置API"
         }
       },
       {
@@ -1504,11 +1504,11 @@
         "full_name": "NousResearch/hermes-agent",
         "description": "The agent that grows with you",
         "html_url": "https://github.com/NousResearch/hermes-agent",
-        "stars": 218363,
-        "forks": 41287,
+        "stars": 218378,
+        "forks": 41292,
         "language": "Python",
         "created_at": "2025-07-22T22:22:28Z",
-        "updated_at": "2026-07-21T22:15:13Z",
+        "updated_at": "2026-07-21T23:13:53Z",
         "topics": [
           "ai",
           "ai-agent",
@@ -1530,7 +1530,7 @@
         "license": "MIT License",
         "ai_analysis": {
           "analyzed": true,
-          "analysis": "### 项目分析：hermes-agent\n\n**1. 中文简介**\nHermes Agent 是一款伴随用户共同成长的智能代理工具。它旨在通过持续学习和适应，为用户提供个性化且日益强大的辅助能力。该项目在开发者社区中拥有极高的关注度，标志着其在AI代理领域的领先地位。\n\n**2. 核心功能**\n*   **自适应成长机制**：代理能够根据用户的交互历史和使用习惯不断优化自身表现，实现“越用越强”。\n*   **多模型兼容支持**：基于标签可见，它广泛支持包括 Anthropic (Claude)、OpenAI (ChatGPT) 及 Codex 在内的多种主流大语言模型。\n*   **智能代码辅助**：结合“claude-code”、“codex”等标签，表明其具备深度的代码生成、理解及调试能力。\n*   **灵活代理架构**：作为通用的 AI Agent 框架，支持复杂任务的自动化执行与工作流管理。\n\n**3. 适用场景**\n*   **高阶开发者辅助**：需要集成特定 LLM（如 Claude 或 GPT-4）进行复杂代码重构和自动化测试的资深程序员。\n*   **个性化工作流定制**：希望拥有一个能记住个人偏好、项目上下文并随时间进化的私人技术助手。\n*   **AI 应用原型开发**：研究人员或开发者用于快速构建和测试基于不同 LLM 提供商的智能代理逻辑。\n\n**4. 技术亮点**\n*   **高社区认可度**：拥有超过 21 万星标，证明其代码质量、实用性及社区影响力极高。\n*   **生态兼容性**：通过整合 Nous Research、OpenClaw 等社区资源，展现出强大的开源生态整合能力。\n*   **前沿代理范式**：代表了当前 AI Agent 从“单次问答”向“长期记忆与持续进化”演进的技术趋势。"
+          "analysis": "**1. 中文简介**\nHermes Agent 是一款能够伴随用户共同成长的智能代理工具。它通过持续学习和交互，帮助用户更高效地处理日常任务与技术工作。该项目旨在打造一个灵活且适应性强的个人 AI 助手生态系统。\n\n**2. 核心功能**\n*   **自适应成长机制**：代理能够根据用户的反馈和使用习惯不断优化自身行为与能力。\n*   **多模型兼容支持**：广泛支持包括 Claude、ChatGPT 在内的多种主流大语言模型后端。\n*   **代码与自动化协作**：具备强大的代码生成、解释及自动化工作流执行能力。\n*   **模块化架构设计**：采用插件化结构，便于开发者扩展新功能或集成第三方服务。\n\n**3. 适用场景**\n*   **复杂代码开发辅助**：作为高级编程助手，协助开发者进行代码编写、调试及重构。\n*   **个性化工作流自动化**：为用户定制并执行重复性高、逻辑复杂的日常办公或数据处理任务。\n*   **智能对话与研究助手**：在学术调研或深度咨询场景中，提供基于最新知识的精准解答与分析。\n\n**4. 技术亮点**\n*   集成了 Anthropic 的 Claude 等前沿 LLM 技术，确保高质量的推理与生成能力。\n*   拥有极高的社区关注度（近 22 万星标），证明了其在开源 AI Agent 领域的广泛影响力与成熟度。"
         }
       },
       {
@@ -1538,11 +1538,11 @@
         "full_name": "n8n-io/n8n",
         "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
         "html_url": "https://github.com/n8n-io/n8n",
-        "stars": 197369,
-        "forks": 59520,
+        "stars": 197377,
+        "forks": 59521,
         "language": "TypeScript",
         "created_at": "2019-06-22T09:24:21Z",
-        "updated_at": "2026-07-21T22:13:41Z",
+        "updated_at": "2026-07-21T23:11:31Z",
         "topics": [
           "ai",
           "apis",
@@ -1605,11 +1605,11 @@
         "full_name": "f/prompts.chat",
         "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
         "html_url": "https://github.com/f/prompts.chat",
-        "stars": 166152,
+        "stars": 166156,
         "forks": 21474,
         "language": "HTML",
         "created_at": "2022-12-05T13:54:13Z",
-        "updated_at": "2026-07-21T21:23:24Z",
+        "updated_at": "2026-07-21T23:02:02Z",
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -1638,7 +1638,7 @@
         "description": "Stable Diffusion web UI",
         "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "stars": 164282,
-        "forks": 30430,
+        "forks": 30429,
         "language": "Python",
         "created_at": "2022-08-22T14:05:26Z",
         "updated_at": "2026-07-21T21:39:14Z",
@@ -1671,7 +1671,7 @@
         "forks": 46183,
         "language": "JavaScript",
         "created_at": "2018-05-07T13:27:00Z",
-        "updated_at": "2026-07-21T20:11:11Z",
+        "updated_at": "2026-07-21T23:00:32Z",
         "topics": [
           "agent",
           "ai",
@@ -1694,11 +1694,11 @@
         "full_name": "firecrawl/firecrawl",
         "description": "The API to search, scrape, and interact with the web at scale. 🔥",
         "html_url": "https://github.com/firecrawl/firecrawl",
-        "stars": 154018,
+        "stars": 154035,
         "forks": 8786,
         "language": "TypeScript",
         "created_at": "2024-04-15T21:02:29Z",
-        "updated_at": "2026-07-21T21:58:49Z",
+        "updated_at": "2026-07-21T23:11:44Z",
         "topics": [
           "ai",
           "ai-agents",
@@ -1727,11 +1727,11 @@
         "full_name": "langflow-ai/langflow",
         "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
         "html_url": "https://github.com/langflow-ai/langflow",
-        "stars": 152170,
+        "stars": 152171,
         "forks": 9619,
         "language": "Python",
         "created_at": "2023-02-08T22:28:03Z",
-        "updated_at": "2026-07-21T22:11:33Z",
+        "updated_at": "2026-07-21T22:59:11Z",
         "topics": [
           "agents",
           "chatgpt",

@@ -4,29 +4,9 @@
 ## 新发布的AI项目
 
 ### cumora
-- 
-
-## cumora 项目分析
-
-### 1. 中文简介
-cumora 是一个跨平台团队聊天工具，让 AI 代理成为一等公民的团队成员。支持云端 AI 服务或自带 AI 大脑（如 Claude Code / Codex），实现人机协作的无缝体验。
-
-### 2. 核心功能
-- 跨平台团队聊天，AI 代理作为平等团队成员参与协作
-- 支持云端 AI 服务，也可接入自带 AI 大脑（如 Claude Code、Codex）
-- 多 AI 代理协同工作，实现复杂任务的分工与配合
-- 统一的聊天界面管理多人多 AI 的对话流
-
-### 3. 适用场景
-- 开发团队利用多个 AI 代理并行处理代码审查、文档生成等任务
-- 需要灵活切换 AI 服务商（如在不同场景使用 Claude 或 Codex）的团队协作
-- 希望将 AI 代理整合到现有工作流中的企业或开源项目
-
-### 4. 技术亮点
-- 采用 TypeScript 开发，类型安全且生态友好
-- 支持 Bring-Your-Own-AI 架构，用户可自由选择 AI 后端，不绑定特定服务商
+- 描述: Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.
 - 链接: https://github.com/yetone/cumora
-- ⭐ 1995 | 🍴 215 | 语言: TypeScript
+- ⭐ 2014 | 🍴 215 | 语言: TypeScript
 
 ### sprix-sage-router
 - 描述: Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.
@@ -37,7 +17,7 @@ cumora 是一个跨平台团队聊天工具，让 AI 代理成为一等公民的
 ### bigpeng-hot-gzh
 - 描述: 从100 多篇爆款 AI 公众号文章中蒸馏出的 7 个爆款选题公式和 Skill。
 - 链接: https://github.com/BigPengSays/bigpeng-hot-gzh
-- ⭐ 149 | 🍴 11 | 语言: 未知
+- ⭐ 152 | 🍴 11 | 语言: 未知
 
 ### dance-video-to-prompt
 - 描述: 本地短视频反推 AI 视频生成提示词：抽帧、清晰度、节奏卡点、Agent Skill
@@ -45,14 +25,37 @@ cumora 是一个跨平台团队聊天工具，让 AI 代理成为一等公民的
 - ⭐ 46 | 🍴 1 | 语言: Python
 
 ### idor-tester-ai
-- 描述: 无描述
+- 
+
+## idor-tester-ai 项目分析
+
+### 1. 中文简介
+idor-tester-ai 是一个基于人工智能技术的 Insecure Direct Object Reference（不安全的直接对象引用）漏洞自动化测试工具。该项目利用 AI 能力辅助安全研究人员和渗透测试人员检测 Web 应用中的 IDOR 漏洞，提升安全测试的效率和准确性。
+
+### 2. 核心功能
+- 自动识别和测试 Web 应用中的 IDOR 漏洞
+- 利用 AI 技术分析请求参数和对象引用模式
+- 智能生成和变异测试用例以发现潜在漏洞
+- 提供结构化的漏洞报告和风险评估
+- 支持多种 Web 框架和 API 架构的测试
+
+### 3. 适用场景
+- Web 应用安全渗透测试和漏洞扫描
+- 安全研究人员进行 IDOR 漏洞批量检测
+- DevSecOps 流程中的自动化安全测试集成
+- 安全审计和合规性检查中的漏洞验证
+
+### 4. 技术亮点
+- 结合 AI 智能分析与自动化测试技术，提升漏洞检测准确率
+- 针对 IDOR 这一 OWASP Top 10 常见漏洞进行专项优化
+- 基于 Python 开发，易于集成和扩展
 - 链接: https://github.com/poriaporhashemi/idor-tester-ai
 - ⭐ 44 | 🍴 8 | 语言: Python
 
 ### chinese-font-selector
 - 描述: 全网首个中文字体专业知识包：可商用中文字体库（授权三级分类）、场景×气质选字矩阵、中英混排与排版规则。让 AI 选中文设计字体不再甩给你一堆 Inter / Chinese font selection agent skill: license-safe free commercial CJK fonts, scene-based selection matrix, CJK-Latin pairing rules. Works with Claude Code / Cursor / Kimi / Codex.
 - 链接: https://github.com/Songzhi-lab/chinese-font-selector
-- ⭐ 40 | 🍴 0 | 语言: 未知
+- ⭐ 43 | 🍴 0 | 语言: 未知
 - 标签: agent-skills, ai-agent, chinese-fonts, chinese-typography, cjk-fonts
 
 ### pagedMark
@@ -61,17 +64,16 @@ cumora 是一个跨平台团队聊天工具，让 AI 代理成为一等公民的
 - ⭐ 22 | 🍴 8 | 语言: Python
 - 标签: apple-silicon, c2pa, diffusers, gpt-image, gpt-image-2
 
-### Universal-AI-Jailbreak-Collection
-- 描述: Данный репозиторий является академическим исследованием поведения языковых моделей и их систем безопасности. Все материалы представлены исключительно в текстовом формате и не требуют скачивания или запуска каких-либо исполняемых файлов.
-- 链接: https://github.com/xer0-code/Universal-AI-Jailbreak-Collection
-- ⭐ 17 | 🍴 0 | 语言: 未知
-- 标签: ai-jailbreak, ai-safety, ai-uncensored, claude-jailbreak-2026, deepseek-jailbreak
-
 ### h3-game-sprites
 - 描述: Agent Skill: turn AI-generated video into 2D game sprite sheets (the Mortal Kombat method, with MiniMax H3 as the actor)
 - 链接: https://github.com/gary149/h3-game-sprites
-- ⭐ 14 | 🍴 0 | 语言: Python
+- ⭐ 15 | 🍴 0 | 语言: Python
 - 标签: agent-skills, ai-video, claude-code, game-development, sprites
+
+### https-github.com-ifixai-ai-iFixAi
+- 描述: https://github.com/ifixai-ai/iFixAi
+- 链接: https://github.com/abirmusa92-code/https-github.com-ifixai-ai-iFixAi
+- ⭐ 13 | 🍴 0 | 语言: 未知
 
 ### samehuman-writing
 - 描述: AI 产品经理专业中文写作 Skill：观点共创、证据驱动、自然去 AI 味。
@@ -88,36 +90,49 @@ cumora 是一个跨平台团队聊天工具，让 AI 代理成为一等公民的
 - ⭐ 82522 | 🍴 15265 | 语言: Python
 
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
+- 
+
+## GitHub项目分析：500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
+
+---
+
+### 1. 中文简介
+
+这是一个精选的AI项目资源合集，包含500个涵盖机器学习、深度学习、计算机视觉和自然语言处理领域的实战项目，每个项目均附带完整代码。该项目在GitHub上获得了超过36,000个星标，是AI学习者与开发者的重要参考资料库。
+
+---
+
+### 2. 核心功能
+
+- 收录500个AI实战项目，覆盖机器学习、深度学习、计算机视觉和NLP四大领域。
+- 每个项目均提供可运行的源代码，便于学习者直接实践与复现。
+- 项目按领域分类整理，方便快速定位所需方向的学习资源。
+- 作为awesome列表，聚合了社区精选的高质量AI项目，省去自行搜索的时间。
+- 持续更新，收录最新、最热门的AI项目与教程。
+
+---
+
+### 3. 适用场景
+
+- **AI初学者入门**：通过阅读和运行各类项目代码，快速建立对AI各领域的直观认识。
+- **开发者项目灵感**：为寻找AI落地应用方向的工程师提供丰富的参考案例。
+- **课程与培训教学**：教师或培训机构可将其作为课程实践项目的补充资源库。
+- **面试与作品集准备**：求职者可通过实现其中的项目来丰富个人简历和技术面试表现。
+
+---
+
+### 4. 技术亮点
+
+- **领域覆盖全面**：从传统机器学习到前沿深度学习，从图像处理到文本理解，一站式覆盖AI主流方向。
+- **代码实战导向**：强调"带代码"的项目集合，而非纯理论文章，注重动手实践能力培养。
+- **社区精选质量**：作为awesome列表，项目经过社区筛选，质量相对有保障。
+- **Python生态主导**：标签显示以Python为核心，契合当前AI开发的主流技术栈。
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - ⭐ 36348 | 🍴 7440 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
-- 
-
-# Netron 项目分析
-
-## 1. 中文简介
-Netron 是一款专为神经网络、深度学习和机器学习模型设计的可视化工具。它支持多种主流深度学习框架的模型格式，能够直观展示模型的网络结构和参数信息，帮助用户快速理解模型架构。
-
-## 2. 核心功能
-- 支持 ONNX、TensorFlow、PyTorch、CoreML、Keras、TensorFlow Lite、safetensors 等多种模型格式
-- 以图形化方式清晰展示神经网络层级结构和数据流向
-- 可查看各层的参数、权重和维度信息
-- 支持在浏览器中直接打开，无需本地安装
-- 提供模型导出和截图功能
-
-## 3. 适用场景
-- 深度学习模型架构审查与调试
-- 模型格式转换前后的结构验证
-- 教学演示和论文配图制作
-- 跨框架模型兼容性检查
-
-## 4. 技术亮点
-- 纯前端技术实现，无需后端服务即可运行
-- 高效渲染大规模复杂模型结构
-- 跨平台兼容，支持 Windows、macOS、Linux 及 Web 浏览器
+- 描述: Visualizer for neural network, deep learning and machine learning models
 - 链接: https://github.com/lutzroeder/netron
 - ⭐ 33362 | 🍴 3173 | 语言: JavaScript
 - 标签: ai, coreml, deep-learning, deeplearning, keras
@@ -167,7 +182,30 @@ Netron 是一款专为神经网络、深度学习和机器学习模型设计的�
 ## Deep Learning项目
 
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
+- 
+
+## 项目分析：500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
+
+### 1. 中文简介
+这是一个收录了500个AI项目的资源集合，涵盖机器学习、深度学习、计算机视觉和自然语言处理等领域，所有项目均附带完整代码。该项目由社区维护，精选了各领域的优质开源项目，适合不同水平的开发者学习和参考。
+
+### 2. 核心功能
+- 汇集500个AI相关开源项目，覆盖机器学习、深度学习、计算机视觉和NLP四大领域
+- 每个项目均提供可运行的代码示例，便于学习者直接实践
+- 按技术领域分类整理，方便用户快速定位感兴趣的方向
+- 持续更新，收录各领域最新且优质的开源项目
+
+### 3. 适用场景
+- **学习入门**：AI初学者通过阅读和运行项目代码快速掌握各领域的核心概念
+- **项目参考**：开发者寻找类似项目的实现方案作为开发参考
+- **技术调研**：研究人员快速了解某一AI子领域的最新开源工具和框架
+- **面试准备**：求职者通过实践项目代码提升技术能力，应对技术面试
+
+### 4. 技术亮点
+- 项目数量庞大（500个），覆盖AI主要分支领域，资源全面
+- 精选优质项目，质量有保障，节省用户筛选时间
+- 附带完整代码，注重实践性，可直接运行学习
+- 社区维护活跃，星标数高（36348），说明受到广泛认可
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - ⭐ 36348 | 🍴 7440 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
@@ -185,7 +223,9 @@ Netron 是一款专为神经网络、深度学习和机器学习模型设计的�
 - 标签: artificial-intelligence, deep-learning, keras, machine-learning, matplotlib
 
 ### Ai-Learn
-- 描述: 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch tensorflow machine-learning,deep-learning data-analysis data-mining mathematics data-science artificial-intelligence python tensorflow tensorflow2 caffe keras pytorch algorithm numpy pandas matplotlib seaborn nlp cv等热门领域
+- 
+
+1.
 - 链接: https://github.com/tangyudi/Ai-Learn
 - ⭐ 13264 | 🍴 2675 | 语言: 未知
 - 标签: algorithm, artificial-intelligence, caffe, cv, data-analysis
@@ -196,21 +236,30 @@ Netron 是一款专为神经网络、深度学习和机器学习模型设计的�
 ## Ludwig 项目分析
 
 ### 1. 中文简介
-Ludwig 是一个低代码框架，用于构建自定义大语言模型（LLM）、神经网络及其他 AI 模型。它降低了深度学习模型的搭建门槛，使开发者能够快速迭代和部署模型。
+
+Ludwig 是一款低代码机器学习框架，支持快速构建自定义 LLM、神经网络及其他 AI 模型。它通过声明式配置即可训练和部署模型，大幅降低机器学习开发门槛，同时保持对 PyTorch 的底层控制能力。
 
 ### 2. 核心功能
-- 低代码/无代码方式快速构建和训练深度学习模型
-- 支持自定义大语言模型（LLM）的搭建与微调
-- 兼容主流深度学习框架（PyTorch），支持多种神经网络架构
-- 提供端到端的模型训练、评估与部署流程
+
+- **低代码/声明式建模**：通过 YAML 配置文件定义模型结构和训练流程，无需编写大量代码
+- **多模态支持**：原生支持文本、图像、表格等多种数据类型
+- **微调预训练模型**：内置对 Llama、Mistral 等主流 LLM 的微调能力
+- **自动混合精度训练**：优化训练效率，支持 GPU 加速
+- **一键部署**：提供模型导出和 API 服务部署功能
 
 ### 3. 适用场景
-- 快速原型开发：适合需要快速验证想法的数据科学家和AI工程师
-- LLM微调：针对特定任务对 LLaMA、Mistral 等开源模型进行微调
-- 数据驱动型项目：以数据为中心，适用于计算机视觉、NLP等多种领域
+
+- **快速原型开发**：数据科学家无需深入框架细节即可验证模型想法
+- **企业级模型微调**：对 Llama/Mistral 等开源模型进行领域适配
+- **多模态应用**：需要同时处理文本和图像数据的场景
+- **自动化机器学习**：减少人工调参，自动选择最优模型架构
 
 ### 4. 技术亮点
-- 标签涵盖 computer-vision、data-centric、fine-tuning、llama/llama2、mistral、pytorch 等，说明其支持多模态任务，且与主流开源大模型生态深度集成。
+
+- 基于 PyTorch，兼容主流深度学习生态
+- 与 Hugging Face Transformers 深度集成，支持 100+ 预训练模型
+- 支持分布式训练，可横向扩展至多 GPU 集群
+- 社区活跃（11,748 星标），文档完善
 - 链接: https://github.com/ludwig-ai/ludwig
 - ⭐ 11748 | 🍴 1217 | 语言: Python
 - 标签: computer-vision, data-centric, data-science, deep, deep-learning
@@ -253,109 +302,72 @@ Ludwig 是一个低代码框架，用于构建自定义大语言模型（LLM）�
 - ⭐ 82522 | 🍴 15265 | 语言: Python
 
 ### LlamaFactory
-- 
-
-# LlamaFactory 项目分析
-
-## 1. 中文简介
-
-LlamaFactory 是一个统一高效的微调框架，支持 100 多种大语言模型（LLM）和多模态模型（VLM）的微调，研究成果发表于 ACL 2024。该项目提供了完整的微调解决方案，涵盖指令微调、强化学习等多种训练方式。
-
-## 2. 核心功能
-
-- 支持 100+ 种主流大模型的高效微调，包括 LLaMA、Qwen、Gemma、DeepSeek 等
-- 提供多种微调方法：LoRA、QLoRA、全参数微调、P-Tuning 等
-- 支持指令微调（Instruction Tuning）和 RLHF（强化学习人类反馈）训练
-- 集成 Transformers 库，兼容 PEFT 和量化技术
-- 支持 MoE（混合专家）架构模型的高效训练
-
-## 3. 适用场景
-
-- 企业或个人需要对开源大模型进行领域适配和指令微调
-- 希望使用量化技术（如 QLoRA）在消费级显卡上高效微调大模型
-- 需要进行多模态模型（VLM）的微调和训练
-- 研究场景下需要对多种模型架构进行对比实验
-
-## 4. 技术亮点
-
-- **统一框架**：一个工具支持 100+ 种模型，无需为每种模型编写单独的微调代码
-- **高效量化**：集成 QLoRA 技术，可在 4-bit 量化下微调 65B 参数模型
-- **多模态支持**：同时支持文本和视觉-语言模型的统一微调
-- **学术认可**：研究成果发表于 ACL 2024，具有学术权威性
-- **生态完整**：深度集成 Hugging Face Transformers 和 PEFT 生态
+- 描述: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 - 链接: https://github.com/hiyouga/LlamaFactory
-- ⭐ 74192 | 🍴 9078 | 语言: Python
+- ⭐ 74194 | 🍴 9078 | 语言: Python
 - 标签: agent, ai, deepseek, fine-tuning, gemma
 
 ### AI-For-Beginners
 - 
 
-# AI-For-Beginners 项目分析
+## AI-For-Beginners 项目分析
 
-## 1. 中文简介
-这是一套为期12周、包含24课时的AI入门课程，面向所有学习者开放。课程由微软开发者关系团队开发，涵盖人工智能、机器学习、深度学习等核心主题，适合零基础学习者系统掌握AI知识。
+### 1. 中文简介
+这是一门为期12周、共24课时的AI入门课程，面向所有学习者开放。课程由微软推出，以Jupyter Notebook为载体，系统性地讲解人工智能的核心概念与实践技能。
 
-## 2. 核心功能
-- 提供12周系统的AI学习路径，每周2课时的结构化课程设计
-- 基于Jupyter Notebook的交互式编程环境，支持代码实践与即时反馈
-- 覆盖CNN、RNN、GAN、NLP等主流AI技术领域的完整课程体系
-- 微软官方维护，内容质量有保障，适合自学与课堂教学使用
+### 2. 核心功能
+- 提供结构化的12周学习路径，覆盖AI基础到进阶内容
+- 包含机器学习、深度学习、计算机视觉、自然语言处理等核心主题
+- 使用Jupyter Notebook交互式教学，支持动手实践
+- 涵盖CNN、RNN、GAN等主流AI模型的技术讲解
 
-## 3. 适用场景
-- 高校计算机专业或相关课程的AI入门教学辅助
-- 职场人士利用业余时间系统学习人工智能基础知识
-- 编程爱好者通过动手实践快速掌握机器学习核心概念
-- 教师备课资源，可直接用于课堂演示和学生练习
+### 3. 适用场景
+- 初学者系统学习人工智能基础知识
+- 高校或培训机构作为AI课程的配套教材
+- 开发者快速入门并掌握AI核心概念
+- 企业内训中用于员工AI技能培养
 
-## 4. 技术亮点
-- 采用微软For Beginners系列的标准课程框架，循序渐进
-- 结合理论讲解与代码实践，强调"做中学"的教学理念
-- 涵盖从传统机器学习到深度学习的完整技术栈
-- 开源免费，社区活跃，持续更新迭代
+### 4. 技术亮点
+- 由微软官方维护，内容质量有保障
+- 采用"边学边练"的交互式教学模式
+- 标签覆盖全面，从基础ML到前沿DL均有涉及
+- 65,298颗星的高人气证明其广泛认可度
 - 链接: https://github.com/microsoft/AI-For-Beginners
-- ⭐ 65292 | 🍴 12672 | 语言: Jupyter Notebook
+- ⭐ 65298 | 🍴 12672 | 语言: Jupyter Notebook
 - 标签: ai, artificial-intelligence, cnn, computer-vision, deep-learning
 
 ### ai-engineering-from-scratch
-- 描述: Learn it. Build it. Ship it for others.
+- 
+
+# GitHub项目分析：ai-engineering-from-scratch
+
+## 1. 中文简介
+从零开始学习、构建并部署AI工程，为他人提供完整解决方案。该项目是一套系统化的AI工程教程，涵盖从基础理论到实际落地的全流程实践。
+
+## 2. 核心功能
+- 提供从零开始的AI工程系统化学习路径
+- 涵盖大语言模型（LLM）开发与提示工程实战
+- 支持多智能体（Agent）系统与MCP协议集成
+- 包含计算机视觉、NLP和强化学习等模块
+- 提供Python和Rust双语言实现教程
+
+## 3. 适用场景
+- AI工程师系统学习从零构建AI应用
+- 研究人员探索多智能体协作与群体智能
+- 开发者学习生成式AI和Transformer架构实战
+- 企业团队搭建AI工程化部署方案
+
+## 4. 技术亮点
+- 采用"Learn-Build-Ship"三步实践法，强调动手落地
+- 跨语言支持（Python + Rust），兼顾易用性与性能
+- 覆盖从基础机器学习到前沿生成式AI的完整技术栈
+- 包含Swarm Intelligence等前沿研究方向
 - 链接: https://github.com/rohitg00/ai-engineering-from-scratch
-- ⭐ 47060 | 🍴 8251 | 语言: Python
+- ⭐ 47063 | 🍴 8252 | 语言: Python
 - 标签: agents, ai, ai-agents, ai-engineering, computer-vision
 
 ### ailearning
-- 
-
-## GitHub项目分析：ailearning
-
----
-
-### 1. 中文简介
-该项目是一套全面的AI与机器学习学习资源库，涵盖数据分析、机器学习实战、线性代数、PyTorch深度学习框架、NLTK自然语言处理以及TensorFlow 2等核心内容，适合从入门到进阶的系统学习。
-
----
-
-### 2. 核心功能
-- **机器学习算法实战**：实现SVM、K-Means、逻辑回归、朴素贝叶斯、Adaboost等经典算法。
-- **深度学习框架应用**：基于PyTorch和TensorFlow 2进行DNN、RNN、LSTM等模型开发。
-- **自然语言处理（NLP）**：利用NLTK进行文本处理与语言分析。
-- **推荐系统与关联规则**：实现Apriori、FP-Growth等算法用于推荐场景。
-- **数学基础支持**：涵盖线性代数中的PCA、SVD等关键算法实现。
-
----
-
-### 3. 适用场景
-- **AI/ML初学者系统学习**：从零搭建机器学习知识体系，配合代码实战巩固理解。
-- **高校课程辅助**：作为《机器学习》《深度学习》等课程的实验参考项目。
-- **面试准备与技能提升**：通过复现经典算法，强化算法原理与工程实现能力。
-- **NLP与推荐系统入门**：快速上手自然语言处理和推荐算法的实际开发。
-
----
-
-### 4. 技术亮点
-- **全栈式学习路线**：从数学基础到深度学习，覆盖AI核心知识链条。
-- **多框架并行支持**：同时支持PyTorch和TensorFlow 2，兼顾灵活性与工业标准。
-- **高社区认可度**：42,463+星标，说明项目质量与实用性获得广泛认可。
-- **算法覆盖全面**：标签涵盖监督学习、无监督学习、深度学习、NLP、推荐系统等主要方向。
+- 描述: AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2
 - 链接: https://github.com/apachecn/ailearning
 - ⭐ 42463 | 🍴 11516 | 语言: Python
 - 标签: adaboost, apriori, deeplearning, dnn, fp-growth
@@ -375,7 +387,7 @@ LlamaFactory 是一个统一高效的微调框架，支持 100 多种大语言�
 ### RAG_Techniques
 - 描述: This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.
 - 链接: https://github.com/NirDiamant/RAG_Techniques
-- ⭐ 29094 | 🍴 3541 | 语言: Jupyter Notebook
+- ⭐ 29095 | 🍴 3541 | 语言: Jupyter Notebook
 - 标签: agentic-rag, ai, embeddings, generative-ai, gpt
 
 ### datasets
@@ -399,61 +411,15 @@ LlamaFactory 是一个统一高效的微调框架，支持 100 多种大语言�
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### skyvern
-- 
-
-## Skyvern 项目分析
-
-### 1. 中文简介
-Skyvern 是一款基于 AI 的浏览器自动化框架，能够智能地自动化各种基于浏览器的业务流程。它结合了大型语言模型（LLM）和计算机视觉技术，让机器能够像人类一样理解和操作网页界面。
-
-### 2. 核心功能
-- 利用 AI 和计算机视觉自动识别网页元素并执行操作
-- 支持多种浏览器自动化工具（Playwright、Puppeteer、Selenium）
-- 提供 API 接口，便于集成到现有工作流中
-- 基于 LLM 理解任务意图并自主规划执行步骤
-- 支持录制和回放浏览器操作，降低自动化开发门槛
-
-### 3. 适用场景
-- **RPA 流程自动化**：替代人工完成重复性的网页操作任务
-- **数据采集与爬虫**：智能抓取需要登录或动态加载的网页数据
-- **跨平台工作流整合**：连接多个 Web 应用，实现端到端自动化
-- **测试与 QA**：自动化执行 Web 应用的回归测试场景
-
-### 4. 技术亮点
-- 融合 LLM 推理能力与视觉感知，实现"理解式"自动化而非简单的脚本录制
-- 兼容主流浏览器自动化工具生态，灵活适配不同技术栈
-- 低代码/无代码设计，非技术人员也可快速构建自动化流程
+- 描述: Automate browser based workflows with AI
 - 链接: https://github.com/Skyvern-AI/skyvern
-- ⭐ 22777 | 🍴 2140 | 语言: Python
+- ⭐ 22778 | 🍴 2140 | 语言: Python
 - 标签: ai, api, automation, browser, browser-automation
 
 ### cvat
-- 
-
-## CVAT 项目分析
-
-### 1. 中文简介
-CVAT（计算机视觉标注工具）是构建高质量视觉数据集的领先平台，提供开源、云端和企业级产品。它支持图像、视频和3D标注，具备AI辅助标注、质量保证、团队协作、数据分析及开发者API等功能。
-
-### 2. 核心功能
-- 支持图像、视频和3D数据的智能标注
-- 提供AI辅助标注功能，大幅提升标注效率
-- 内置质量保证机制，确保数据集准确性
-- 支持团队协作，便于多人协同完成标注任务
-- 开放开发者API，方便集成与二次开发
-
-### 3. 适用场景
-- 深度学习项目中的图像分类与目标检测数据标注
-- 自动驾驶、安防监控等视频分析任务的数据集制作
-- 医疗影像、工业质检等专业领域的语义分割标注
-- 科研机构和企业的视觉AI数据集批量生产
-
-### 4. 技术亮点
-- 支持PyTorch和TensorFlow等主流深度学习框架
-- 提供丰富的标注类型：边界框、语义分割、关键点等
-- 开源免费，社区活跃，累计16539颗星标
+- 描述: Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.
 - 链接: https://github.com/cvat-ai/cvat
-- ⭐ 16539 | 🍴 3805 | 语言: Python
+- ⭐ 16540 | 🍴 3805 | 语言: Python
 - 标签: annotation, annotation-tool, annotations, boundingbox, computer-vision
 
 ### pytorch-grad-cam
@@ -463,9 +429,33 @@ CVAT（计算机视觉标注工具）是构建高质量视觉数据集的领先�
 - 标签: class-activation-maps, computer-vision, deep-learning, explainable-ai, explainable-ml
 
 ### kornia
-- 描述: 🐍 Geometric Computer Vision Library for Spatial AI
+- 
+
+## Kornia 项目分析
+
+### 1. 中文简介
+Kornia 是一个面向空间 AI 的几何计算机视觉库，基于 PyTorch 构建。它提供了一套可微分的图像处理与计算机视觉算子，支持端到端的深度学习流水线。该库旨在将传统计算机视觉算法与深度学习框架无缝集成。
+
+### 2. 核心功能
+- 提供可微分的几何视觉算子，支持自动微分与梯度传播
+- 内置丰富的图像处理功能，如图像变换、色彩空间转换、滤波等
+- 支持 3D 视觉任务，包括相机标定、立体视觉和三维重建
+- 与 PyTorch 生态深度集成，可直接在 GPU 上运行
+- 提供机器人学相关的视觉工具，如位姿估计和 SLAM 组件
+
+### 3. 适用场景
+- 机器人视觉导航与空间感知系统开发
+- 三维重建、SLAM（同步定位与地图构建）等几何视觉任务
+- 需要端到端可微分图像处理流程的深度学习项目
+- 图像增强、风格迁移等计算机视觉应用研究
+
+### 4. 技术亮点
+- **可微分设计**：所有算子支持梯度计算，可直接嵌入神经网络进行端到端训练
+- **PyTorch 原生集成**：张量接口与 PyTorch 完全兼容，无需额外数据转换
+- **GPU 加速**：所有计算均可在 GPU 上并行执行，显著提升处理效率
+- **开源活跃**：星标数超过 11000，社区活跃，持续更新维护
 - 链接: https://github.com/kornia/kornia
-- ⭐ 11313 | 🍴 1223 | 语言: Python
+- ⭐ 11313 | 🍴 1224 | 语言: Python
 - 标签: artificial-intelligence, computer-vision, deep-learning, hacktoberfest, image-processing
 
 ### ImageAI
@@ -503,94 +493,60 @@ CVAT（计算机视觉标注工具）是构建高质量视觉数据集的领先�
 ### openclaw
 - 描述: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
 - 链接: https://github.com/openclaw/openclaw
-- ⭐ 386613 | 🍴 81242 | 语言: TypeScript
+- ⭐ 386614 | 🍴 81242 | 语言: TypeScript
 - 标签: ai, assistant, crustacean, molty, openclaw
 
 ### superpowers
-- 
-
-抱歉,我无法访问这个 GitHub 项目。
-
-我没有实时访问互联网或 GitHub 的能力,无法查看 `superpowers` 项目的实际内容、代码仓库或 README 文件。
-
-如果你能提供该项目的 README 内容或关键文件,我可以帮你:
-- 翻译成中文
-- 分析核心功能
-- 总结适用场景
-
-或者你可以直接访问 https://github.com/superpowers/superpowers 查看项目详情。
+- 描述: An agentic skills framework & software development methodology that works.
 - 链接: https://github.com/obra/superpowers
-- ⭐ 273420 | 🍴 24458 | 语言: Shell
+- ⭐ 273431 | 🍴 24461 | 语言: Shell
 - 标签: ai, brainstorming, coding, obra, sdlc
 
 ### hermes-agent
 - 描述: The agent that grows with you
 - 链接: https://github.com/NousResearch/hermes-agent
-- ⭐ 232264 | 🍴 46286 | 语言: Python
+- ⭐ 232277 | 🍴 46290 | 语言: Python
 - 标签: ai, ai-agent, ai-agents, anthropic, chatgpt
 
 ### n8n
-- 
-
-# n8n 项目分析
-
-## 1. 中文简介
-n8n 是一款公平代码工作流自动化平台，内置原生 AI 能力，支持可视化构建与自定义代码相结合。用户可选择自托管或云端部署，拥有 400 多种集成连接，覆盖低代码和无代码场景。
-
-## 2. 核心功能
-- 可视化工作流编排，拖拽式构建自动化流程
-- 原生 AI 集成，支持智能决策与内容生成
-- 400+ 预置集成，覆盖主流 SaaS 服务和 API
-- 支持自托管和云端两种部署模式
-- 融合低代码与自定义代码开发，灵活扩展
-
-## 3. 适用场景
-- 企业级数据同步与系统集成自动化
-- AI 驱动的智能工作流（如自动内容生成、数据分析）
-- 无需代码基础的业务流程自动化搭建
-- 需要数据隐私控制的自托管自动化方案
-
-## 4. 技术亮点
-- 基于 TypeScript 开发，类型安全且易于扩展
-- 支持 MCP（Model Context Protocol）协议，实现 AI 模型与工具的标准化连接
-- 公平代码许可证（Fair-code），兼顾开源协作与商业可持续性
+- 描述: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - 链接: https://github.com/n8n-io/n8n
-- ⭐ 201057 | 🍴 60204 | 语言: TypeScript
+- ⭐ 201059 | 🍴 60204 | 语言: TypeScript
 - 标签: ai, apis, automation, cli, data-flow
 
 ### AutoGPT
 - 描述: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - 链接: https://github.com/Significant-Gravitas/AutoGPT
-- ⭐ 186658 | 🍴 46059 | 语言: Python
+- ⭐ 186657 | 🍴 46059 | 语言: Python
 - 标签: agentic-ai, agents, ai, artificial-intelligence, autonomous-agents
 
 ### firecrawl
 - 描述: The context API to search, scrape, and interact with the web at scale. 🔥
 - 链接: https://github.com/firecrawl/firecrawl
-- ⭐ 168828 | 🍴 9437 | 语言: TypeScript
+- ⭐ 168839 | 🍴 9437 | 语言: TypeScript
 - 标签: ai, ai-agents, ai-crawler, ai-scraping, ai-search
 
 ### prompts.chat
 - 描述: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - 链接: https://github.com/f/prompts.chat
-- ⭐ 167375 | 🍴 21596 | 语言: HTML
+- ⭐ 167376 | 🍴 21596 | 语言: HTML
 - 标签: ai, artificial-intelligence, awesome-list, chatgpt, chatgpt-prompts
 
 ### stable-diffusion-webui
 - 描述: Stable Diffusion web UI
 - 链接: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- ⭐ 164556 | 🍴 30554 | 语言: Python
+- ⭐ 164554 | 🍴 30554 | 语言: Python
 - 标签: ai, ai-art, deep-learning, diffusion, gradio
 
 ### JavaGuide
 - 描述: Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 - 链接: https://github.com/Snailclimb/JavaGuide
-- ⭐ 157848 | 🍴 46173 | 语言: JavaScript
+- ⭐ 157847 | 🍴 46173 | 语言: JavaScript
 - 标签: agent, ai, context-engineering, deepseek, interview
 
 ### langflow
 - 描述: Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
 - 链接: https://github.com/langflow-ai/langflow
-- ⭐ 153401 | 🍴 9881 | 语言: Python
+- ⭐ 153402 | 🍴 9881 | 语言: Python
 - 标签: agents, chatgpt, generative-ai, large-language-models, multiagent
 

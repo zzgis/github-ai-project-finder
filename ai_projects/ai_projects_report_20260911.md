@@ -9,24 +9,25 @@
 ## 项目分析：routeVSCODE
 
 ### 1. 中文简介
-routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具，支持零刷新动态切换 AI 模型。用户无需重启编辑器即可在 Copilot Chat 中自由切换不同 AI 模型。
+routeVSCODE 是一款基于 9Router 的 VSCode 本地代理插件，支持在 Copilot Chat 中零重载动态切换 AI 模型。它允许开发者在不重启编辑器的情况下，灵活切换 ChatGPT、Claude、DeepSeek 等多个 AI 模型进行对话。
 
 ### 2. 核心功能
-- 支持零刷新动态切换 AI 模型
-- 提供本地代理功能，适配 VSCode Copilot Chat
-- 兼容多种 AI 模型（ChatGPT、Claude、DeepSeek、Copilot 等）
-- 作为 VSCode 扩展运行，无缝集成开发环境
+- **零重载模型切换**：无需重新加载 VSCode 即可动态切换 AI 模型
+- **多模型支持**：兼容 ChatGPT、Claude、DeepSeek、Copilot 等多种 AI 模型
+- **本地代理架构**：通过 9Router 搭建本地代理层，统一管理模型请求路由
+- **VSCode 原生集成**：作为 VSCode 扩展运行，无缝融入 Copilot Chat 工作流
+- **配置驱动**：通过简单配置即可切换不同模型的 API 端点
 
 ### 3. 适用场景
-- 开发者希望在 VSCode 中对比不同 AI 模型的回复质量
-- 需要临时切换模型以获取更准确或更高效的代码建议
-- 本地网络受限，通过代理访问多个 AI 服务
-- 想免费使用 DeepSeek 等替代模型，无需订阅多平台
+- **成本优化**：在不同模型间切换以平衡性能与 API 调用成本
+- **模型对比**：快速比较不同 AI 模型在同一问题上的回答质量
+- **可用性保障**：当某个模型服务不稳定时，快速切换到备用模型
+- **功能适配**：根据任务类型选择最适合的模型（如代码生成选 Claude，通用问答选 ChatGPT）
 
 ### 4. 技术亮点
-- **零刷新切换**：无需重载 VSCode 即可切换模型，提升工作效率
-- **本地代理架构**：通过 9Router 实现请求转发，兼容多模型 API
-- **轻量级扩展**：基于 JavaScript 开发，体积小、易于部署
+- 基于 9Router 的本地代理架构，实现请求级路由控制
+- 零重载设计避免了 VSCode 重启带来的工作流中断
+- 标签涵盖主流 AI 模型，生态兼容性强
 - 链接: https://github.com/yudaprasetya007/routeVSCODE
 - ⭐ 327 | 🍴 0 | 语言: JavaScript
 - 标签: 9router, ai, chatgpt, claude, copilot
@@ -34,35 +35,35 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### printfilm
 - 描述: PRINTFILM：AI 科普视频与漫剧创作平台
 - 链接: https://github.com/yi1108/printfilm
-- ⭐ 209 | 🍴 1 | 语言: Python
+- ⭐ 213 | 🍴 1 | 语言: Python
 
 ### reelbench-skills
 - 描述: Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill
 - 链接: https://github.com/eternityspring/reelbench-skills
-- ⭐ 131 | 🍴 20 | 语言: HTML
+- ⭐ 145 | 🍴 21 | 语言: HTML
 - 标签: ai-video, claude-code, claude-skills, ffmpeg, shot-analysis
+
+### rune
+- 描述: the development environment for pros
+- 链接: https://github.com/unstablebuild/rune
+- ⭐ 88 | 🍴 5 | 语言: Go
+- 标签: agent-orchestration, ai, cli, coding-agents, developer-tool
 
 ### tracecrate
 - 描述: Local-first AI agent trace workbench. Inspect Claude Code, Codex and OTLP logs, compare runs, and export privacy-conscious reports. No backend or API keys.
 - 链接: https://github.com/FankChen/tracecrate
-- ⭐ 74 | 🍴 2 | 语言: TypeScript
+- ⭐ 84 | 🍴 2 | 语言: TypeScript
 - 标签: ai, ai-agents, claude-code, codex, developer-tools
 
 ### AICryptoTrading
 - 描述: The trading system uses Claude AI & ICT strategy signal
 - 链接: https://github.com/aps32221/AICryptoTrading
-- ⭐ 39 | 🍴 5 | 语言: Go
+- ⭐ 40 | 🍴 6 | 语言: Go
 
 ### Mi-Ripple
 - 描述: MIYANG diagnosis-guided restoration for digital ripple artifacts in iteratively edited AI images
 - 链接: https://github.com/miyang-ai/Mi-Ripple
 - ⭐ 34 | 🍴 4 | 语言: Python
-
-### rune
-- 描述: the development environment for pros
-- 链接: https://github.com/unstablebuild/rune
-- ⭐ 22 | 🍴 2 | 语言: Go
-- 标签: agent-orchestration, ai, cli, coding-agents, developer-tool
 
 ### ai-agent-langgraph-main
 - 描述: 无描述
@@ -77,7 +78,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### web-cli
 - 描述: Local browser automation for AI assistants and scripts. Reuse your logged-in Chrome session and run ordinary tasks in the background.
 - 链接: https://github.com/selenaking2025/web-cli
-- ⭐ 15 | 🍴 4 | 语言: JavaScript
+- ⭐ 15 | 🍴 5 | 语言: JavaScript
 - 标签: ai-agents, browser-automation, chrome-extension, cli, javascript
 
 ## 热门AI项目
@@ -92,7 +93,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36810 | 🍴 7478 | 语言: 未知
+- ⭐ 36810 | 🍴 7479 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
@@ -110,13 +111,13 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### ml-engineering
 - 描述: Machine Learning Engineering Open Book
 - 链接: https://github.com/stas00/ml-engineering
-- ⭐ 18969 | 🍴 1245 | 语言: Python
+- ⭐ 18970 | 🍴 1245 | 语言: Python
 - 标签: ai, debugging, gpus, inference, large-language-models
 
 ### ML-YouTube-Courses
 - 描述: 📺 Discover the latest machine learning / AI courses on YouTube.
 - 链接: https://github.com/dair-ai/ML-YouTube-Courses
-- ⭐ 17411 | 🍴 2126 | 语言: 未知
+- ⭐ 17410 | 🍴 2126 | 语言: 未知
 - 标签: ai, data-science, deep-learning, machine-learning, natural-language-processing
 
 ### cheatsheets-ai
@@ -148,7 +149,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36810 | 🍴 7478 | 语言: 未知
+- ⭐ 36810 | 🍴 7479 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
@@ -184,7 +185,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### jetson-inference
 - 描述: Hello AI World guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.
 - 链接: https://github.com/dusty-nv/jetson-inference
-- ⭐ 8992 | 🍴 3110 | 语言: C++
+- ⭐ 8991 | 🍴 3110 | 语言: C++
 - 标签: caffe, computer-vision, deep-learning, digits, embedded
 
 ### caffe2
@@ -202,7 +203,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### AI-Project-Gallery
 - 描述: This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.
 - 链接: https://github.com/KalyanM45/AI-Project-Gallery
-- ⭐ 6616 | 🍴 1269 | 语言: 未知
+- ⭐ 6618 | 🍴 1269 | 语言: 未知
 - 标签: ai-projects, artificial-intelligence-projects, computer-vision-projects, data-science-projects, deep-learning-projects
 
 ## Nlp项目
@@ -221,13 +222,13 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### AI-For-Beginners
 - 描述: 12 Weeks, 24 Lessons, AI for All!
 - 链接: https://github.com/microsoft/AI-For-Beginners
-- ⭐ 68382 | 🍴 13200 | 语言: Jupyter Notebook
+- ⭐ 68385 | 🍴 13201 | 语言: Jupyter Notebook
 - 标签: ai, artificial-intelligence, cnn, computer-vision, deep-learning
 
 ### ai-engineering-from-scratch
 - 描述: Learn it. Build it. Ship it for others.
 - 链接: https://github.com/rohitg00/ai-engineering-from-scratch
-- ⭐ 54237 | 🍴 9456 | 语言: Python
+- ⭐ 54244 | 🍴 9461 | 语言: Python
 - 标签: agents, ai, ai-agents, ai-engineering, computer-vision
 
 ### ailearning
@@ -239,7 +240,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36810 | 🍴 7478 | 语言: 未知
+- ⭐ 36810 | 🍴 7479 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### spaCy
@@ -251,7 +252,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### RAG_Techniques
 - 描述: This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.
 - 链接: https://github.com/NirDiamant/RAG_Techniques
-- ⭐ 29442 | 🍴 3605 | 语言: Jupyter Notebook
+- ⭐ 29443 | 🍴 3605 | 语言: Jupyter Notebook
 - 标签: agentic-rag, ai, embeddings, generative-ai, gpt
 
 ### datasets
@@ -263,7 +264,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### ML-YouTube-Courses
 - 描述: 📺 Discover the latest machine learning / AI courses on YouTube.
 - 链接: https://github.com/dair-ai/ML-YouTube-Courses
-- ⭐ 17411 | 🍴 2126 | 语言: 未知
+- ⭐ 17410 | 🍴 2126 | 语言: 未知
 - 标签: ai, data-science, deep-learning, machine-learning, natural-language-processing
 
 ## Computer Vision项目
@@ -271,7 +272,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36810 | 🍴 7478 | 语言: 未知
+- ⭐ 36810 | 🍴 7479 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### skyvern
@@ -283,7 +284,7 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### cvat
 - 描述: Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.
 - 链接: https://github.com/cvat-ai/cvat
-- ⭐ 16684 | 🍴 3834 | 语言: Python
+- ⭐ 16685 | 🍴 3834 | 语言: Python
 - 标签: annotation, annotation-tool, annotations, boundingbox, computer-vision
 
 ### pytorch-grad-cam
@@ -295,19 +296,19 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### kornia
 - 描述: 🐍 Geometric Computer Vision Library for Spatial AI
 - 链接: https://github.com/kornia/kornia
-- ⭐ 11352 | 🍴 1294 | 语言: Python
+- ⭐ 11353 | 🍴 1294 | 语言: Python
 - 标签: artificial-intelligence, computer-vision, deep-learning, hacktoberfest, image-processing
 
 ### ImageAI
 - 描述: A python library built to empower developers to build applications and systems  with self-contained Computer Vision capabilities
 - 链接: https://github.com/OlafenwaMoses/ImageAI
-- ⭐ 8884 | 🍴 2184 | 语言: Python
+- ⭐ 8885 | 🍴 2184 | 语言: Python
 - 标签: ai-practice-recommendations, algorithm, artificial-intelligence, artificial-neural-networks, densenet
 
 ### viseron
 - 描述: Self-hosted, local only NVR and AI Computer Vision software.  With features such as object detection, motion detection, face recognition and more, it gives you the power to keep an eye on your home, office or any other place you want to monitor.
 - 链接: https://github.com/roflcoopter/viseron
-- ⭐ 3525 | 🍴 431 | 语言: Python
+- ⭐ 3526 | 🍴 431 | 语言: Python
 - 标签: coral, cuda, darknet, edgetpu, face-recognition
 
 ### AliceVision
@@ -333,60 +334,60 @@ routeVSCODE 是一个基于 9Router 的 VSCode Copilot Chat 本地代理工具�
 ### openclaw
 - 描述: The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
 - 链接: https://github.com/openclaw/openclaw
-- ⭐ 389445 | 🍴 81856 | 语言: TypeScript
+- ⭐ 389457 | 🍴 81863 | 语言: TypeScript
 - 标签: ai, assistant, crustacean, molty, openclaw
 
 ### superpowers
 - 描述: An agentic skills framework & software development methodology that works.
 - 链接: https://github.com/obra/superpowers
-- ⭐ 285223 | 🍴 25508 | 语言: Shell
+- ⭐ 285285 | 🍴 25511 | 语言: Shell
 - 标签: ai, brainstorming, coding, obra, sdlc
 
 ### hermes-agent
 - 描述: The agent that grows with you
 - 链接: https://github.com/NousResearch/hermes-agent
-- ⭐ 244522 | 🍴 50651 | 语言: Python
+- ⭐ 244549 | 🍴 50669 | 语言: Python
 - 标签: ai, ai-agent, ai-agents, anthropic, chatgpt
 
 ### n8n
 - 描述: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - 链接: https://github.com/n8n-io/n8n
-- ⭐ 204011 | 🍴 60636 | 语言: TypeScript
+- ⭐ 204022 | 🍴 60639 | 语言: TypeScript
 - 标签: ai, apis, automation, cli, data-flow
 
 ### AutoGPT
 - 描述: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - 链接: https://github.com/Significant-Gravitas/AutoGPT
-- ⭐ 187265 | 🍴 46022 | 语言: Python
+- ⭐ 187269 | 🍴 46021 | 语言: Python
 - 标签: agentic-ai, agents, ai, artificial-intelligence, autonomous-agents
 
 ### firecrawl
 - 描述: The context API to search, scrape, and interact with the web at scale. 🔥
 - 链接: https://github.com/firecrawl/firecrawl
-- ⭐ 179106 | 🍴 9746 | 语言: TypeScript
+- ⭐ 179155 | 🍴 9749 | 语言: TypeScript
 - 标签: ai, ai-agents, ai-crawler, ai-scraping, ai-search
 
 ### prompts.chat
 - 描述: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - 链接: https://github.com/f/prompts.chat
-- ⭐ 169971 | 🍴 21860 | 语言: HTML
+- ⭐ 169985 | 🍴 21862 | 语言: HTML
 - 标签: ai, artificial-intelligence, awesome-list, chatgpt, chatgpt-prompts
 
 ### stable-diffusion-webui
 - 描述: Stable Diffusion web UI
 - 链接: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- ⭐ 164895 | 🍴 30546 | 语言: Python
+- ⭐ 164896 | 🍴 30546 | 语言: Python
 - 标签: ai, ai-art, deep-learning, diffusion, gradio
 
 ### JavaGuide
 - 描述: Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 - 链接: https://github.com/Snailclimb/JavaGuide
-- ⭐ 158452 | 🍴 46140 | 语言: JavaScript
+- ⭐ 158455 | 🍴 46140 | 语言: JavaScript
 - 标签: agent, ai, context-engineering, deepseek, interview
 
 ### dify
 - 描述: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 - 链接: https://github.com/langgenius/dify
-- ⭐ 155434 | 🍴 24551 | 语言: TypeScript
+- ⭐ 155445 | 🍴 24551 | 语言: TypeScript
 - 标签: agent, agentic-ai, agentic-framework, agentic-workflow, ai
 

@@ -4,15 +4,38 @@
 ## 新发布的AI项目
 
 ### reelbench-skills
-- 描述: Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill
+- 
+
+## 项目分析：reelbench-skills
+
+### 1. 中文简介
+本项目是一套面向 AI 视频制作的学习笔记与工具技能集合，专注于利用 Claude Code 等 AI 工具提升视频处理效率。项目整合了 FFmpeg 视频分析、镜头分析等实用技能，帮助用户快速掌握 AI 视频工作流。
+
+### 2. 核心功能
+- 提供 AI 视频制作相关的学习笔记和技能指南
+- 集成 Claude Code 技能，支持 AI 驱动的视频分析任务
+- 利用 FFmpeg 进行视频格式转换与基础处理
+- 支持镜头分析与视频内容智能识别
+- 提供可复用的工具链配置，简化视频处理流程
+
+### 3. 适用场景
+- AI 视频创作者快速搭建自动化视频分析工作流
+- 需要批量处理视频素材的影视后期团队
+- 学习 Claude Code 与 FFmpeg 结合使用的开发者
+- 希望利用 AI 工具提升视频制作效率的个人创作者
+
+### 4. 技术亮点
+- 巧妙结合 Claude Code 技能系统与 FFmpeg 命令行工具，实现智能化视频分析
+- 标签明确指向 AI 视频垂直领域，技能配置可直接复用
+- 适合快速上手的轻量级工具集，无需复杂环境配置
 - 链接: https://github.com/eternityspring/reelbench-skills
-- ⭐ 296 | 🍴 35 | 语言: JavaScript
+- ⭐ 301 | 🍴 35 | 语言: JavaScript
 - 标签: ai-video, claude-code, claude-skills, ffmpeg, shot-analysis
 
 ### ai-data-extractor
 - 描述: Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.
 - 链接: https://github.com/kruzovic7/ai-data-extractor
-- ⭐ 123 | 🍴 39 | 语言: Python
+- ⭐ 138 | 🍴 46 | 语言: Python
 - 标签: ai, ai-data-extraction, claude-code, cursor
 
 ### Fortnite-ESP-Soft-Aim-2026-SlowLow-Team-Visual-Assist-Tool
@@ -21,46 +44,44 @@
 - ⭐ 76 | 🍴 0 | 语言: HTML
 - 标签: aim-assist-tool, download, esp32, fortnite-esp-2026, fortnite-github
 
+### CVE-2026-42978-PoC-Research
+- 描述: CVE-2026-42978 Windows Push Notifications (WpnService) Use-After-Free & Race Condition PoC research, diagnostic scanner, and security audit module for AI Security Tool.
+- 链接: https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research
+- ⭐ 68 | 🍴 0 | 语言: 未知
+- 标签: ai-security-tool, cve-2026-42978, cve-2026-42978-poc, cwe-362, local-system-eop
+
 ### Baize
 - 描述: 白泽 —— 中国古代神话中通晓万物的瑞兽，如今化身为 Vibe Coding 助手。  一个开源的 AI Coding Agent CLI，支持多后端（DeepSeek / OpenAI 兼容 / Ollama 本地），具备工具调用、技能加载、子代理委派、上下文压缩、安全沙箱等完整能力。在终端即可与 AI 结对编程。
 - 链接: https://github.com/Xu123-Bob/Baize
 - ⭐ 67 | 🍴 0 | 语言: JavaScript
 - 标签: ai, ai-agent, ai-agents, ai-coding
 
-### CVE-2026-42978-PoC-Research
-- 描述: CVE-2026-42978 Windows Push Notifications (WpnService) Use-After-Free & Race Condition PoC research, diagnostic scanner, and security audit module for AI Security Tool.
-- 链接: https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research
-- ⭐ 66 | 🍴 0 | 语言: 未知
-- 标签: ai-security-tool, cve-2026-42978, cve-2026-42978-poc, cwe-362, local-system-eop
+### universal-aimbot-esp
+- 描述: Universal Aimbot & ESP for Roblox — silent aim, ESP box, customizable FOV, wall check | free | no key | 2026
+- 链接: https://github.com/timesocialcover/universal-aimbot-esp
+- ⭐ 61 | 🍴 11 | 语言: 未知
 
 ### birdview
 - 描述: Stop letting AI code blind. Map the architecture before every change with Birdview.
 - 链接: https://github.com/Qiuner/birdview
-- ⭐ 37 | 🍴 1 | 语言: JavaScript
+- ⭐ 52 | 🍴 1 | 语言: JavaScript
 - 标签: agent-tools, ai-workflow, architecture-as-code, code-visualization, coding-agents
 
 ### fomo-robinhood-radar
 - 描述: Who the good traders on Robinhood Chain are buying: resolved wallets, a 20-second on-chain tape, provenance on every fill, AI verdicts, bursts and exits. Site + Telegram bot + API. Runs on $0/month.
 - 链接: https://github.com/cvxv666/fomo-robinhood-radar
-- ⭐ 30 | 🍴 14 | 语言: Python
+- ⭐ 35 | 🍴 16 | 语言: Python
 - 标签: astro, fastapi, fomo-family, memecoin, onchain-analytics
+
+### New_Error_422
+- 描述: A corrupted Minecraft modification engineered for unpredictable glitch mechanics, anomalous entity AI, custom audio landscapes, and low-level game code chaos.
+- 链接: https://github.com/drJhonatan00/New_Error_422
+- ⭐ 30 | 🍴 0 | 语言: Java
 
 ### esphome-airplay2
 - 描述: ESPHome external component that turns an ESP32 into an AirPlay 2 receiver. Non-Commercial licensed (port of rbouteiller/airplay-esp32).
 - 链接: https://github.com/henriklied/esphome-airplay2
 - ⭐ 25 | 🍴 0 | 语言: C++
-
-### image-gen-open-source
-- 描述: A local image workspace for generating, editing, and comparing AI images with Codex, OpenAI, and Google. Bring your own accounts and API keys.
-- 链接: https://github.com/koppkvn/image-gen-open-source
-- ⭐ 24 | 🍴 2 | 语言: JavaScript
-- 标签: codex, gemini, image-generation, javascript, local-first
-
-### awesome-harness-evolution
-- 描述: Awesome Research Paper List for AI agent harness evolution: Foundation, Benchmark, Recipe, Position
-- 链接: https://github.com/wannabeyourfriend/awesome-harness-evolution
-- ⭐ 22 | 🍴 1 | 语言: Python
-- 标签: agent-harness, agent-skills, ai-agents, awesome-list, harness-engineering
 
 ## 热门AI项目
 
@@ -74,7 +95,7 @@
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36816 | 🍴 7479 | 语言: 未知
+- ⭐ 36819 | 🍴 7478 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
@@ -116,7 +137,7 @@
 ### cleanlab
 - 描述: Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels.
 - 链接: https://github.com/cleanlab/cleanlab
-- ⭐ 11651 | 🍴 920 | 语言: Python
+- ⭐ 11652 | 🍴 920 | 语言: Python
 - 标签: active-learning, annotation, anomaly-detection, data-annotation, data-centric-ai
 
 ### mlcourse.ai
@@ -130,7 +151,7 @@
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36816 | 🍴 7479 | 语言: 未知
+- ⭐ 36819 | 🍴 7478 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
@@ -184,7 +205,7 @@
 ### AI-Project-Gallery
 - 描述: This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.
 - 链接: https://github.com/KalyanM45/AI-Project-Gallery
-- ⭐ 6643 | 🍴 1275 | 语言: 未知
+- ⭐ 6646 | 🍴 1275 | 语言: 未知
 - 标签: ai-projects, artificial-intelligence-projects, computer-vision-projects, data-science-projects, deep-learning-projects
 
 ## Nlp项目
@@ -197,19 +218,19 @@
 ### LlamaFactory
 - 描述: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 - 链接: https://github.com/hiyouga/LlamaFactory
-- ⭐ 74727 | 🍴 9147 | 语言: Python
+- ⭐ 74726 | 🍴 9146 | 语言: Python
 - 标签: agent, ai, deepseek, fine-tuning, gemma
 
 ### AI-For-Beginners
 - 描述: 12 Weeks, 24 Lessons, AI for All!
 - 链接: https://github.com/microsoft/AI-For-Beginners
-- ⭐ 68417 | 🍴 13207 | 语言: Jupyter Notebook
+- ⭐ 68418 | 🍴 13208 | 语言: Jupyter Notebook
 - 标签: ai, artificial-intelligence, cnn, computer-vision, deep-learning
 
 ### ai-engineering-from-scratch
 - 描述: Learn it. Build it. Ship it for others.
 - 链接: https://github.com/rohitg00/ai-engineering-from-scratch
-- ⭐ 54354 | 🍴 9487 | 语言: Python
+- ⭐ 54357 | 🍴 9490 | 语言: Python
 - 标签: agents, ai, ai-agents, ai-engineering, computer-vision
 
 ### ailearning
@@ -221,7 +242,7 @@
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36816 | 🍴 7479 | 语言: 未知
+- ⭐ 36819 | 🍴 7478 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### spaCy
@@ -233,7 +254,7 @@
 ### RAG_Techniques
 - 描述: This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.
 - 链接: https://github.com/NirDiamant/RAG_Techniques
-- ⭐ 29450 | 🍴 3606 | 语言: Jupyter Notebook
+- ⭐ 29452 | 🍴 3606 | 语言: Jupyter Notebook
 - 标签: agentic-rag, ai, embeddings, generative-ai, gpt
 
 ### datasets
@@ -253,19 +274,19 @@
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36816 | 🍴 7479 | 语言: 未知
+- ⭐ 36819 | 🍴 7478 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### skyvern
 - 描述: Automate browser based workflows with AI
 - 链接: https://github.com/Skyvern-AI/skyvern
-- ⭐ 22980 | 🍴 2158 | 语言: Python
+- ⭐ 22981 | 🍴 2158 | 语言: Python
 - 标签: ai, api, automation, browser, browser-automation
 
 ### cvat
 - 描述: Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.
 - 链接: https://github.com/cvat-ai/cvat
-- ⭐ 16691 | 🍴 3835 | 语言: Python
+- ⭐ 16690 | 🍴 3835 | 语言: Python
 - 标签: annotation, annotation-tool, annotations, boundingbox, computer-vision
 
 ### pytorch-grad-cam
@@ -295,7 +316,7 @@
 ### AliceVision
 - 描述: 3D Computer Vision Framework
 - 链接: https://github.com/alicevision/AliceVision
-- ⭐ 3492 | 🍴 878 | 语言: C++
+- ⭐ 3492 | 🍴 879 | 语言: C++
 - 标签: 3d-computer-vision, 3d-reconstruction, ai, alicevision, camera-tracking
 
 ### CVprojects
@@ -315,60 +336,60 @@
 ### openclaw
 - 描述: The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
 - 链接: https://github.com/openclaw/openclaw
-- ⭐ 389504 | 🍴 81878 | 语言: TypeScript
+- ⭐ 389509 | 🍴 81877 | 语言: TypeScript
 - 标签: ai, assistant, crustacean, molty, openclaw
 
 ### superpowers
 - 描述: An agentic skills framework & software development methodology that works.
 - 链接: https://github.com/obra/superpowers
-- ⭐ 285710 | 🍴 25561 | 语言: Shell
+- ⭐ 285744 | 🍴 25563 | 语言: Shell
 - 标签: ai, brainstorming, coding, obra, sdlc
 
 ### hermes-agent
 - 描述: The agent that grows with you
 - 链接: https://github.com/NousResearch/hermes-agent
-- ⭐ 244846 | 🍴 50786 | 语言: Python
+- ⭐ 244865 | 🍴 50797 | 语言: Python
 - 标签: ai, ai-agent, ai-agents, anthropic, chatgpt
 
 ### n8n
 - 描述: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - 链接: https://github.com/n8n-io/n8n
-- ⭐ 204095 | 🍴 60646 | 语言: TypeScript
+- ⭐ 204099 | 🍴 60645 | 语言: TypeScript
 - 标签: ai, apis, automation, cli, data-flow
 
 ### AutoGPT
 - 描述: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - 链接: https://github.com/Significant-Gravitas/AutoGPT
-- ⭐ 187276 | 🍴 46020 | 语言: Python
+- ⭐ 187286 | 🍴 46020 | 语言: Python
 - 标签: agentic-ai, agents, ai, artificial-intelligence, autonomous-agents
 
 ### firecrawl
 - 描述: The context API to search, scrape, and interact with the web at scale. 🔥
 - 链接: https://github.com/firecrawl/firecrawl
-- ⭐ 179492 | 🍴 9762 | 语言: TypeScript
+- ⭐ 179519 | 🍴 9763 | 语言: TypeScript
 - 标签: ai, ai-agents, ai-crawler, ai-scraping, ai-search
 
 ### prompts.chat
 - 描述: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - 链接: https://github.com/f/prompts.chat
-- ⭐ 170109 | 🍴 21879 | 语言: HTML
+- ⭐ 170117 | 🍴 21878 | 语言: HTML
 - 标签: ai, artificial-intelligence, awesome-list, chatgpt, chatgpt-prompts
 
 ### stable-diffusion-webui
 - 描述: Stable Diffusion web UI
 - 链接: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- ⭐ 164905 | 🍴 30550 | 语言: Python
+- ⭐ 164906 | 🍴 30550 | 语言: Python
 - 标签: ai, ai-art, deep-learning, diffusion, gradio
 
 ### JavaGuide
 - 描述: Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 - 链接: https://github.com/Snailclimb/JavaGuide
-- ⭐ 158473 | 🍴 46138 | 语言: JavaScript
+- ⭐ 158475 | 🍴 46138 | 语言: JavaScript
 - 标签: agent, ai, context-engineering, deepseek, interview
 
 ### dify
 - 描述: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 - 链接: https://github.com/langgenius/dify
-- ⭐ 155522 | 🍴 24567 | 语言: TypeScript
+- ⭐ 155532 | 🍴 24568 | 语言: TypeScript
 - 标签: agent, agentic-ai, agentic-framework, agentic-workflow, ai
 

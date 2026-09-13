@@ -4,38 +4,14 @@
 ## 新发布的AI项目
 
 ### Awesome-Astra-Embodied-AI
-- 
-
-# GitHub 项目分析：Awesome-Astra-Embodied-AI
-
-## 1. 中文简介
-该项目是一个面向具身智能和机器人领域的 AI 项目，基于 GPT-6 Astra 模型构建。它旨在为机器人和具身智能系统提供先进的 AI 能力支持。
-
-## 2. 核心功能
-- 为具身智能系统提供 GPT-6 Astra 模型支持
-- 赋能机器人领域的 AI 能力
-- 提供机器人智能交互解决方案
-- 支持具身智能应用场景开发
-
-## 3. 适用场景
-- 机器人智能控制系统开发
-- 具身 AI 研究与实验
-- 机器人自然语言交互应用
-- 智能机器人平台构建
-
-## 4. 技术亮点
-基于 GPT-6 Astra 大模型，为具身智能和机器人领域提供先进的 AI 能力。
-
----
-
-> **说明**：由于该项目信息有限（仅 202 星标，无详细标签和代码语言），以上分析基于项目描述推断。如需更准确的信息，建议查看项目 README 或实际代码仓库。
+- 描述: GPT-6 Astra for embodied AI and robotics.
 - 链接: https://github.com/zjwzcx/Awesome-Astra-Embodied-AI
-- ⭐ 202 | 🍴 2 | 语言: 未知
+- ⭐ 210 | 🍴 2 | 语言: 未知
 
 ### birdview
 - 描述: Stop letting AI code blind. Map the architecture before every change with Birdview.
 - 链接: https://github.com/Qiuner/birdview
-- ⭐ 161 | 🍴 4 | 语言: JavaScript
+- ⭐ 162 | 🍴 5 | 语言: JavaScript
 - 标签: agent-tools, ai-workflow, architecture-as-code, code-visualization, coding-agents
 
 ### Baize
@@ -61,25 +37,25 @@
 - ⭐ 41 | 🍴 0 | 语言: 未知
 - 标签: game-tools, lua, roblox, scripting, windows
 
-### New_Error_422
-- 描述: A corrupted Minecraft modification engineered for unpredictable glitch mechanics, anomalous entity AI, custom audio landscapes, and low-level game code chaos.
-- 链接: https://github.com/drJhonatan00/New_Error_422
-- ⭐ 30 | 🍴 0 | 语言: Java
-
 ### vibe-writing-open-source
 - 描述: A local-first AI writing workbench with Markdown editing, reviewed AI changes, research, memory and text skills. Apache-2.0.
 - 链接: https://github.com/fwfuuu-design/vibe-writing-open-source
-- ⭐ 26 | 🍴 1 | 语言: TypeScript
+- ⭐ 32 | 🍴 2 | 语言: TypeScript
+
+### New_Error_422
+- 描述: A corrupted Minecraft modification engineered for unpredictable glitch mechanics, anomalous entity AI, custom audio landscapes, and low-level game code chaos.
+- 链接: https://github.com/drJhonatan00/New_Error_422
+- ⭐ 31 | 🍴 0 | 语言: Java
+
+### new-media-analyzer
+- 描述: 新媒体分析器：抖音、公众号、小红书内容采集、本地转写、数据图表与 AI 分析。Mac / Windows ZIP，限个人非商业使用。
+- 链接: https://github.com/binghe1980/new-media-analyzer
+- ⭐ 26 | 🍴 8 | 语言: Python
 
 ### photoshop-ai-neural-filters
 - 描述: Free AI neural filter plugin for Photoshop. Enhance images, apply generative fill, and use smart portrait features with one-click installation.
 - 链接: https://github.com/Summitpichannel/photoshop-ai-neural-filters
 - ⭐ 25 | 🍴 1 | 语言: 未知
-
-### new-media-analyzer
-- 描述: 新媒体分析器：抖音、公众号、小红书内容采集、本地转写、数据图表与 AI 分析。Mac / Windows ZIP，限个人非商业使用。
-- 链接: https://github.com/binghe1980/new-media-analyzer
-- ⭐ 24 | 🍴 8 | 语言: Python
 
 ## 热门AI项目
 
@@ -105,13 +81,13 @@
 ### onnx
 - 描述: Open standard for machine learning interoperability
 - 链接: https://github.com/onnx/onnx
-- ⭐ 21478 | 🍴 4031 | 语言: Python
+- ⭐ 21479 | 🍴 4031 | 语言: Python
 - 标签: ai, artificial-intelligence, deep-learning, deep-neural-networks, dnn
 
 ### ml-engineering
 - 描述: Machine Learning Engineering Open Book
 - 链接: https://github.com/stas00/ml-engineering
-- ⭐ 18979 | 🍴 1246 | 语言: Python
+- ⭐ 18982 | 🍴 1246 | 语言: Python
 - 标签: ai, debugging, gpus, inference, large-language-models
 
 ### ML-YouTube-Courses
@@ -129,7 +105,7 @@
 ### Ai-Learn
 - 描述: 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch tensorflow machine-learning,deep-learning data-analysis data-mining mathematics data-science artificial-intelligence python tensorflow tensorflow2 caffe keras pytorch algorithm numpy pandas matplotlib seaborn nlp cv等热门领域
 - 链接: https://github.com/tangyudi/Ai-Learn
-- ⭐ 13336 | 🍴 2673 | 语言: 未知
+- ⭐ 13337 | 🍴 2673 | 语言: 未知
 - 标签: algorithm, artificial-intelligence, caffe, cv, data-analysis
 
 ### cleanlab
@@ -167,7 +143,7 @@
 ### Ai-Learn
 - 描述: 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch tensorflow machine-learning,deep-learning data-analysis data-mining mathematics data-science artificial-intelligence python tensorflow tensorflow2 caffe keras pytorch algorithm numpy pandas matplotlib seaborn nlp cv等热门领域
 - 链接: https://github.com/tangyudi/Ai-Learn
-- ⭐ 13336 | 🍴 2673 | 语言: 未知
+- ⭐ 13337 | 🍴 2673 | 语言: 未知
 - 标签: algorithm, artificial-intelligence, caffe, cv, data-analysis
 
 ### ludwig
@@ -179,7 +155,7 @@
 ### pwnagotchi
 - 描述: (⌐■_■) - Deep Reinforcement Learning instrumenting bettercap for WiFi pwning.
 - 链接: https://github.com/evilsocket/pwnagotchi
-- ⭐ 9199 | 🍴 1231 | 语言: Python
+- ⭐ 9200 | 🍴 1231 | 语言: Python
 - 标签: ai, bettercap, deep-learning, deep-neural-network, deep-reinforcement-learning
 
 ### jetson-inference
@@ -203,7 +179,7 @@
 ### AI-Project-Gallery
 - 描述: This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.
 - 链接: https://github.com/KalyanM45/AI-Project-Gallery
-- ⭐ 6656 | 🍴 1277 | 语言: 未知
+- ⭐ 6658 | 🍴 1277 | 语言: 未知
 - 标签: ai-projects, artificial-intelligence-projects, computer-vision-projects, data-science-projects, deep-learning-projects
 
 ## Nlp项目
@@ -216,19 +192,19 @@
 ### LlamaFactory
 - 描述: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 - 链接: https://github.com/hiyouga/LlamaFactory
-- ⭐ 74742 | 🍴 9149 | 语言: Python
+- ⭐ 74744 | 🍴 9150 | 语言: Python
 - 标签: agent, ai, deepseek, fine-tuning, gemma
 
 ### AI-For-Beginners
 - 描述: 12 Weeks, 24 Lessons, AI for All!
 - 链接: https://github.com/microsoft/AI-For-Beginners
-- ⭐ 68458 | 🍴 13218 | 语言: Jupyter Notebook
+- ⭐ 68459 | 🍴 13220 | 语言: Jupyter Notebook
 - 标签: ai, artificial-intelligence, cnn, computer-vision, deep-learning
 
 ### ai-engineering-from-scratch
 - 描述: Learn it. Build it. Ship it for others.
 - 链接: https://github.com/rohitg00/ai-engineering-from-scratch
-- ⭐ 54433 | 🍴 9521 | 语言: Python
+- ⭐ 54443 | 🍴 9524 | 语言: Python
 - 标签: agents, ai, ai-agents, ai-engineering, computer-vision
 
 ### ailearning
@@ -246,7 +222,7 @@
 ### spaCy
 - 描述: 💫 Industrial-strength Natural Language Processing (NLP) in Python
 - 链接: https://github.com/explosion/spaCy
-- ⭐ 33897 | 🍴 4721 | 语言: Python
+- ⭐ 33898 | 🍴 4721 | 语言: Python
 - 标签: ai, artificial-intelligence, cython, data-science, deep-learning
 
 ### RAG_Techniques
@@ -278,13 +254,13 @@
 ### skyvern
 - 描述: Automate browser based workflows with AI
 - 链接: https://github.com/Skyvern-AI/skyvern
-- ⭐ 22990 | 🍴 2160 | 语言: Python
+- ⭐ 22992 | 🍴 2160 | 语言: Python
 - 标签: ai, api, automation, browser, browser-automation
 
 ### cvat
 - 描述: Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.
 - 链接: https://github.com/cvat-ai/cvat
-- ⭐ 16697 | 🍴 3839 | 语言: Python
+- ⭐ 16698 | 🍴 3839 | 语言: Python
 - 标签: annotation, annotation-tool, annotations, boundingbox, computer-vision
 
 ### pytorch-grad-cam
@@ -308,7 +284,7 @@
 ### viseron
 - 描述: Self-hosted, local only NVR and AI Computer Vision software.  With features such as object detection, motion detection, face recognition and more, it gives you the power to keep an eye on your home, office or any other place you want to monitor.
 - 链接: https://github.com/roflcoopter/viseron
-- ⭐ 3531 | 🍴 430 | 语言: Python
+- ⭐ 3532 | 🍴 430 | 语言: Python
 - 标签: coral, cuda, darknet, edgetpu, face-recognition
 
 ### AliceVision
@@ -334,60 +310,60 @@
 ### openclaw
 - 描述: The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
 - 链接: https://github.com/openclaw/openclaw
-- ⭐ 389607 | 🍴 81902 | 语言: TypeScript
+- ⭐ 389614 | 🍴 81900 | 语言: TypeScript
 - 标签: ai, assistant, crustacean, molty, openclaw
 
 ### superpowers
 - 描述: An agentic skills framework & software development methodology that works.
 - 链接: https://github.com/obra/superpowers
-- ⭐ 286120 | 🍴 25595 | 语言: Shell
+- ⭐ 286148 | 🍴 25598 | 语言: Shell
 - 标签: ai, brainstorming, coding, obra, sdlc
 
 ### hermes-agent
 - 描述: The agent that grows with you
 - 链接: https://github.com/NousResearch/hermes-agent
-- ⭐ 245118 | 🍴 50964 | 语言: Python
+- ⭐ 245145 | 🍴 50982 | 语言: Python
 - 标签: ai, ai-agent, ai-agents, anthropic, chatgpt
 
 ### n8n
 - 描述: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - 链接: https://github.com/n8n-io/n8n
-- ⭐ 204177 | 🍴 60658 | 语言: TypeScript
+- ⭐ 204181 | 🍴 60657 | 语言: TypeScript
 - 标签: ai, apis, automation, cli, data-flow
 
 ### AutoGPT
 - 描述: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - 链接: https://github.com/Significant-Gravitas/AutoGPT
-- ⭐ 187304 | 🍴 46018 | 语言: Python
+- ⭐ 187309 | 🍴 46017 | 语言: Python
 - 标签: agentic-ai, agents, ai, artificial-intelligence, autonomous-agents
 
 ### firecrawl
 - 描述: The context API to search, scrape, and interact with the web at scale. 🔥
 - 链接: https://github.com/firecrawl/firecrawl
-- ⭐ 179876 | 🍴 9773 | 语言: TypeScript
+- ⭐ 179923 | 🍴 9774 | 语言: TypeScript
 - 标签: ai, ai-agents, ai-crawler, ai-scraping, ai-search
 
 ### prompts.chat
 - 描述: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - 链接: https://github.com/f/prompts.chat
-- ⭐ 170234 | 🍴 21903 | 语言: HTML
+- ⭐ 170246 | 🍴 21904 | 语言: HTML
 - 标签: ai, artificial-intelligence, awesome-list, chatgpt, chatgpt-prompts
 
 ### stable-diffusion-webui
 - 描述: Stable Diffusion web UI
 - 链接: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- ⭐ 164921 | 🍴 30553 | 语言: Python
+- ⭐ 164923 | 🍴 30553 | 语言: Python
 - 标签: ai, ai-art, deep-learning, diffusion, gradio
 
 ### JavaGuide
 - 描述: Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 - 链接: https://github.com/Snailclimb/JavaGuide
-- ⭐ 158495 | 🍴 46140 | 语言: JavaScript
+- ⭐ 158499 | 🍴 46140 | 语言: JavaScript
 - 标签: agent, ai, context-engineering, deepseek, interview
 
 ### dify
 - 描述: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 - 链接: https://github.com/langgenius/dify
-- ⭐ 155600 | 🍴 24576 | 语言: TypeScript
+- ⭐ 155608 | 🍴 24575 | 语言: TypeScript
 - 标签: agent, agentic-ai, agentic-framework, agentic-workflow, ai
 

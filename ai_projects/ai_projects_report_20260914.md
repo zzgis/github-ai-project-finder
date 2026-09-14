@@ -10,28 +10,29 @@
 
 ## 1. 中文简介
 
-ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具，采用哈希链技术对调用日志进行密封保护，确保数据不可篡改。它支持确定性回放和权限越界检测，无需额外依赖，开箱即用。
+ToolReplay 是一款面向 AI Agent 工具调用记录的审计工具，采用哈希链密封技术确保数据完整性，支持确定性回放与调用范围越界检测。该项目为纯 Python CLI 工具，无需额外依赖即可运行。
 
 ## 2. 核心功能
 
-- **哈希链密封**：使用哈希链技术对工具调用记录进行加密保护，防止日志被篡改
-- **确定性回放**：支持对历史工具调用进行精确复现，便于问题排查和验证
-- **作用域越界检测**：自动检测 AI Agent 是否超出授权范围调用工具
-- **JSONL 格式记录**：以 JSON Lines 格式存储调用日志，便于解析和处理
-- **零依赖 CLI**：纯 Python 实现，无需安装额外依赖包即可运行
+- **哈希链密封**：通过哈希链机制对工具调用记录进行完整性校验，防止数据被篡改。
+- **确定性回放**：基于记录的数据可重现 AI Agent 的完整工具调用过程，便于问题追踪。
+- **范围越界检测**：自动检查工具调用是否超出授权范围，识别潜在的安全风险。
+- **轻量级 CLI 工具**：纯 Python 实现，零依赖，开箱即用。
+- **JSONL 格式支持**：以 JSON Lines 格式存储和解析调用日志，兼容主流数据流处理工具。
 
 ## 3. 适用场景
 
-- **AI Agent 安全审计**：企业部署 AI Agent 后，审计其工具调用行为是否符合安全规范
-- **故障排查与复现**：通过确定性回放重现 AI Agent 的调用过程，定位异常原因
-- **权限合规检查**：检测 Agent 是否越权访问敏感工具或执行高风险操作
-- **开发测试验证**：在开发阶段验证 Agent 的工具调用逻辑是否正确
+- **AI Agent 安全审计**：对生产环境中 AI Agent 的工具调用行为进行合规性审查。
+- **故障排查与回溯**：通过确定性回放重现 Agent 执行过程，快速定位问题根因。
+- **权限管控验证**：检测工具调用是否越权，确保 Agent 行为符合安全策略。
+- **日志分析与取证**：对历史调用日志进行完整性验证和安全事件取证。
 
 ## 4. 技术亮点
 
-- **哈希链密封机制**：借鉴区块链思想，确保调用记录的完整性和不可篡改性，为审计提供可信证据链
-- **确定性回放技术**：通过哈希链关联每次调用，实现精确的状态复现，便于追溯问题根源
-- **轻量级设计**：零外部依赖，单文件 CLI 工具，部署和维护成本低
+- **无依赖设计**：仅使用 Python 标准库，部署成本低，兼容性强。
+- **哈希链安全机制**：利用密码学哈希串联调用记录，提供防篡改保障。
+- **确定性回放引擎**：保证相同输入下回放结果一致，提升调试可信度。
+- **聚焦 AI Agent 安全领域**：针对工具调用这一关键环节提供专项审计能力，填补垂直领域工具空白。
 - 链接: https://github.com/Matthew0822/ToolReplay
 - ⭐ 171 | 🍴 18 | 语言: Python
 - 标签: ai-agents, audit, cli, determinism, hash-chain
@@ -44,8 +45,14 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### IvyClaw
 - 描述: A production-oriented multi-agent AI Agent system for software engineering.  |   面向软件研发任务的多智能体 AI Agent 工程系统
 - 链接: https://github.com/ivyfan-toowell/IvyClaw
-- ⭐ 60 | 🍴 4 | 语言: Python
+- ⭐ 58 | 🍴 4 | 语言: Python
 - 标签: ai-agents, deepagents, deepagents-langgraph, llm, llm-agent
+
+### gap-trap
+- 描述: Turns vibe coding into high quality code. Sets up rules and gates in your repo so AI-written code stays correct without you reviewing every line.
+- 链接: https://github.com/pliablepixels/gap-trap
+- ⭐ 37 | 🍴 2 | 语言: JavaScript
+- 标签: agent-skills, agentic-coding, agents-md, ai-agents, ai-coding
 
 ### dsh-blender-plugin
 - 描述: DSH x Blender direct realtime plugin - let an AI model drive Blender over a direct TCP channel: viewport frames, custom-angle renders, inner-loop search, render profiling, safe decimation, headless offload.
@@ -53,38 +60,32 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 - ⭐ 34 | 🍴 3 | 语言: Python
 - 标签: ai-agent, blender, bpy, cycles, dsh
 
-### gap-trap
-- 描述: Turns vibe coding into high quality code. Sets up rules and gates in your repo so AI-written code stays correct without you reviewing every line.
-- 链接: https://github.com/pliablepixels/gap-trap
-- ⭐ 33 | 🍴 2 | 语言: JavaScript
-- 标签: agent-skills, agentic-coding, agents-md, ai-agents, ai-coding
+### airlift
+- 描述: AirLift — paired-Mac AirTraffic/ATAirlock sandbox escape for iOS 27.0
+- 链接: https://github.com/0xjohnnydev/airlift
+- ⭐ 33 | 🍴 2 | 语言: Objective-C
 
 ### AIFISHER
 - 描述: AIFISHER 画布 · 2.0 起源：连接 AI 模型、ComfyUI 与 RunningHub 的本地创作画布。源码公开，仅限非商业用途，禁止接单与倒卖。
 - 链接: https://github.com/Work-Fisher/AIFISHER
-- ⭐ 26 | 🍴 4 | 语言: TypeScript
-
-### infinite-pokemon
-- 描述: A Pokémon-style adventure built with Codex, featuring AI-generated maps, NPCs, branching saves, and multiplayer. The adventure never ends.
-- 链接: https://github.com/Shellishack/infinite-pokemon
-- ⭐ 25 | 🍴 5 | 语言: TypeScript
-- 标签: agent-skills, claude-code-skill, claude-skills, generative-gameplay
+- ⭐ 27 | 🍴 4 | 语言: TypeScript
 
 ### awesome-ai-x-accounts
 - 描述: A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profile bios and follower counts. Available in 7 languages.
 - 链接: https://github.com/everclear077/awesome-ai-x-accounts
-- ⭐ 25 | 🍴 0 | 语言: Python
+- ⭐ 26 | 🍴 0 | 语言: Python
 - 标签: ai-agents, ai-coding, artificial-intelligence, awesome, awesome-list
 
-### XiaoAi-LLM-Router
-- 描述: 一键将老旧小爱同学升级为 DeepSeek/Ollama 智能管家，零硬件改造。 | Upgrade your XiaoAi speaker to a DeepSeek/Ollama AI assistant with one click. Zero hardware mods needed.
-- 链接: https://github.com/FelixQiu1/XiaoAi-LLM-Router
-- ⭐ 20 | 🍴 0 | 语言: Python
+### infinite-pokemon
+- 描述: A Pokémon-style adventure built with Codex, featuring AI-generated maps, NPCs, branching saves, and multiplayer. The adventure never ends.
+- 链接: https://github.com/Shellishack/infinite-pokemon
+- ⭐ 25 | 🍴 6 | 语言: TypeScript
+- 标签: agent-skills, claude-code-skill, claude-skills, generative-gameplay
 
 ### daidocs
 - 描述: Open plain-text file format for AI memory. Your assistant's long-term memory as .dai files on your disk: readable by Claude, GPT, Gemini, Cursor, local models and grep (all LLM models work). MCP server + hooks for Claude Code, Claude Desktop, Cursor, Windsurf, Codex. 83% LongMemEval-S (GPT-4o), 92% (Claude Fable 5), 10x fewer tokens.
 - 链接: https://github.com/Kerneta/daidocs
-- ⭐ 20 | 🍴 0 | 语言: JavaScript
+- ⭐ 21 | 🍴 0 | 语言: JavaScript
 - 标签: agent-memory, ai-agents, ai-memory, chatgpt, claude
 
 ## 热门AI项目
@@ -99,7 +100,7 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36843 | 🍴 7481 | 语言: 未知
+- ⭐ 36845 | 🍴 7481 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
@@ -129,13 +130,13 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### cheatsheets-ai
 - 描述: Essential Cheat Sheets for deep learning and machine learning researchers https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5
 - 链接: https://github.com/kailashahirwar/cheatsheets-ai
-- ⭐ 15432 | 🍴 3370 | 语言: 未知
+- ⭐ 15431 | 🍴 3370 | 语言: 未知
 - 标签: artificial-intelligence, deep-learning, keras, machine-learning, matplotlib
 
 ### Ai-Learn
 - 描述: 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch tensorflow machine-learning,deep-learning data-analysis data-mining mathematics data-science artificial-intelligence python tensorflow tensorflow2 caffe keras pytorch algorithm numpy pandas matplotlib seaborn nlp cv等热门领域
 - 链接: https://github.com/tangyudi/Ai-Learn
-- ⭐ 13344 | 🍴 2673 | 语言: 未知
+- ⭐ 13343 | 🍴 2673 | 语言: 未知
 - 标签: algorithm, artificial-intelligence, caffe, cv, data-analysis
 
 ### cleanlab
@@ -155,7 +156,7 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36843 | 🍴 7481 | 语言: 未知
+- ⭐ 36845 | 🍴 7481 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
@@ -167,13 +168,13 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### cheatsheets-ai
 - 描述: Essential Cheat Sheets for deep learning and machine learning researchers https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5
 - 链接: https://github.com/kailashahirwar/cheatsheets-ai
-- ⭐ 15432 | 🍴 3370 | 语言: 未知
+- ⭐ 15431 | 🍴 3370 | 语言: 未知
 - 标签: artificial-intelligence, deep-learning, keras, machine-learning, matplotlib
 
 ### Ai-Learn
 - 描述: 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch tensorflow machine-learning,deep-learning data-analysis data-mining mathematics data-science artificial-intelligence python tensorflow tensorflow2 caffe keras pytorch algorithm numpy pandas matplotlib seaborn nlp cv等热门领域
 - 链接: https://github.com/tangyudi/Ai-Learn
-- ⭐ 13344 | 🍴 2673 | 语言: 未知
+- ⭐ 13343 | 🍴 2673 | 语言: 未知
 - 标签: algorithm, artificial-intelligence, caffe, cv, data-analysis
 
 ### ludwig
@@ -185,13 +186,13 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### pwnagotchi
 - 描述: (⌐■_■) - Deep Reinforcement Learning instrumenting bettercap for WiFi pwning.
 - 链接: https://github.com/evilsocket/pwnagotchi
-- ⭐ 9201 | 🍴 1231 | 语言: Python
+- ⭐ 9200 | 🍴 1231 | 语言: Python
 - 标签: ai, bettercap, deep-learning, deep-neural-network, deep-reinforcement-learning
 
 ### jetson-inference
 - 描述: Hello AI World guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.
 - 链接: https://github.com/dusty-nv/jetson-inference
-- ⭐ 8992 | 🍴 3110 | 语言: C++
+- ⭐ 8991 | 🍴 3110 | 语言: C++
 - 标签: caffe, computer-vision, deep-learning, digits, embedded
 
 ### caffe2
@@ -209,7 +210,7 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### AI-Project-Gallery
 - 描述: This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.
 - 链接: https://github.com/KalyanM45/AI-Project-Gallery
-- ⭐ 6677 | 🍴 1278 | 语言: 未知
+- ⭐ 6680 | 🍴 1278 | 语言: 未知
 - 标签: ai-projects, artificial-intelligence-projects, computer-vision-projects, data-science-projects, deep-learning-projects
 
 ## Nlp项目
@@ -222,31 +223,31 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### LlamaFactory
 - 描述: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 - 链接: https://github.com/hiyouga/LlamaFactory
-- ⭐ 74768 | 🍴 9156 | 语言: Python
+- ⭐ 74770 | 🍴 9156 | 语言: Python
 - 标签: agent, ai, deepseek, fine-tuning, gemma
 
 ### AI-For-Beginners
 - 描述: 12 Weeks, 24 Lessons, AI for All!
 - 链接: https://github.com/microsoft/AI-For-Beginners
-- ⭐ 68491 | 🍴 13228 | 语言: Jupyter Notebook
+- ⭐ 68496 | 🍴 13228 | 语言: Jupyter Notebook
 - 标签: ai, artificial-intelligence, cnn, computer-vision, deep-learning
 
 ### ai-engineering-from-scratch
 - 描述: Learn it. Build it. Ship it for others.
 - 链接: https://github.com/rohitg00/ai-engineering-from-scratch
-- ⭐ 54554 | 🍴 9545 | 语言: Python
+- ⭐ 54572 | 🍴 9547 | 语言: Python
 - 标签: agents, ai, ai-agents, ai-engineering, computer-vision
 
 ### ailearning
 - 描述: AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2
 - 链接: https://github.com/apachecn/ailearning
-- ⭐ 42530 | 🍴 11506 | 语言: Python
+- ⭐ 42531 | 🍴 11506 | 语言: Python
 - 标签: adaboost, apriori, deeplearning, dnn, fp-growth
 
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36843 | 🍴 7481 | 语言: 未知
+- ⭐ 36845 | 🍴 7481 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### spaCy
@@ -258,13 +259,13 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### RAG_Techniques
 - 描述: This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.
 - 链接: https://github.com/NirDiamant/RAG_Techniques
-- ⭐ 29483 | 🍴 3611 | 语言: Jupyter Notebook
+- ⭐ 29484 | 🍴 3611 | 语言: Jupyter Notebook
 - 标签: agentic-rag, ai, embeddings, generative-ai, gpt
 
 ### datasets
 - 描述: 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools
 - 链接: https://github.com/huggingface/datasets
-- ⭐ 21969 | 🍴 3423 | 语言: Python
+- ⭐ 21969 | 🍴 3425 | 语言: Python
 - 标签: ai, artificial-intelligence, computer-vision, dataset-hub, datasets
 
 ### ML-YouTube-Courses
@@ -278,25 +279,25 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36843 | 🍴 7481 | 语言: 未知
+- ⭐ 36845 | 🍴 7481 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### skyvern
 - 描述: Automate browser based workflows with AI
 - 链接: https://github.com/Skyvern-AI/skyvern
-- ⭐ 22997 | 🍴 2160 | 语言: Python
+- ⭐ 22999 | 🍴 2160 | 语言: Python
 - 标签: ai, api, automation, browser, browser-automation
 
 ### cvat
 - 描述: Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.
 - 链接: https://github.com/cvat-ai/cvat
-- ⭐ 16707 | 🍴 3842 | 语言: Python
+- ⭐ 16708 | 🍴 3842 | 语言: Python
 - 标签: annotation, annotation-tool, annotations, boundingbox, computer-vision
 
 ### pytorch-grad-cam
 - 描述: Advanced AI Explainability for computer vision.  Support for CNNs, Vision Transformers, Classification, Object detection, Segmentation, Image similarity and more.
 - 链接: https://github.com/jacobgil/pytorch-grad-cam
-- ⭐ 12969 | 🍴 1708 | 语言: Python
+- ⭐ 12970 | 🍴 1708 | 语言: Python
 - 标签: class-activation-maps, computer-vision, deep-learning, explainable-ai, explainable-ml
 
 ### kornia
@@ -340,60 +341,60 @@ ToolReplay 是一个用于审计 AI Agent 工具调用记录的命令行工具�
 ### openclaw
 - 描述: The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
 - 链接: https://github.com/openclaw/openclaw
-- ⭐ 389676 | 🍴 81917 | 语言: TypeScript
+- ⭐ 389693 | 🍴 81920 | 语言: TypeScript
 - 标签: ai, assistant, crustacean, molty, openclaw
 
 ### superpowers
 - 描述: An agentic skills framework & software development methodology that works.
 - 链接: https://github.com/obra/superpowers
-- ⭐ 286591 | 🍴 25641 | 语言: Shell
+- ⭐ 286653 | 🍴 25643 | 语言: Shell
 - 标签: ai, brainstorming, coding, obra, sdlc
 
 ### hermes-agent
 - 描述: The agent that grows with you
 - 链接: https://github.com/NousResearch/hermes-agent
-- ⭐ 245424 | 🍴 51117 | 语言: Python
+- ⭐ 245476 | 🍴 51132 | 语言: Python
 - 标签: ai, ai-agent, ai-agents, anthropic, chatgpt
 
 ### n8n
 - 描述: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - 链接: https://github.com/n8n-io/n8n
-- ⭐ 204284 | 🍴 60665 | 语言: TypeScript
+- ⭐ 204301 | 🍴 60668 | 语言: TypeScript
 - 标签: ai, apis, automation, cli, data-flow
 
 ### AutoGPT
 - 描述: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - 链接: https://github.com/Significant-Gravitas/AutoGPT
-- ⭐ 187326 | 🍴 46018 | 语言: Python
+- ⭐ 187336 | 🍴 46018 | 语言: Python
 - 标签: agentic-ai, agents, ai, artificial-intelligence, autonomous-agents
 
 ### firecrawl
 - 描述: The context API to search, scrape, and interact with the web at scale. 🔥
 - 链接: https://github.com/firecrawl/firecrawl
-- ⭐ 180345 | 🍴 9790 | 语言: TypeScript
+- ⭐ 180397 | 🍴 9789 | 语言: TypeScript
 - 标签: ai, ai-agents, ai-crawler, ai-scraping, ai-search
 
 ### prompts.chat
 - 描述: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - 链接: https://github.com/f/prompts.chat
-- ⭐ 170322 | 🍴 21910 | 语言: HTML
+- ⭐ 170338 | 🍴 21912 | 语言: HTML
 - 标签: ai, artificial-intelligence, awesome-list, chatgpt, chatgpt-prompts
 
 ### stable-diffusion-webui
 - 描述: Stable Diffusion web UI
 - 链接: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- ⭐ 164935 | 🍴 30554 | 语言: Python
+- ⭐ 164937 | 🍴 30554 | 语言: Python
 - 标签: ai, ai-art, deep-learning, diffusion, gradio
 
 ### JavaGuide
 - 描述: Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 - 链接: https://github.com/Snailclimb/JavaGuide
-- ⭐ 158534 | 🍴 46136 | 语言: JavaScript
+- ⭐ 158543 | 🍴 46136 | 语言: JavaScript
 - 标签: agent, ai, context-engineering, deepseek, interview
 
 ### dify
 - 描述: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 - 链接: https://github.com/langgenius/dify
-- ⭐ 155704 | 🍴 24591 | 语言: TypeScript
+- ⭐ 155718 | 🍴 24594 | 语言: TypeScript
 - 标签: agent, agentic-ai, agentic-framework, agentic-workflow, ai
 

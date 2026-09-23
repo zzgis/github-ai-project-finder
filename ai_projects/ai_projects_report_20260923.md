@@ -6,25 +6,26 @@
 ### CodexDesk
 - 
 
-## CodexDesk 项目分析
+# CodexDesk 项目分析
 
-### 1. 中文简介
-CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端辅助工具。它作为本地桌面伴侣，帮助开发者更高效地与 AI 编码代理进行交互。项目采用 Rust 语言开发，注重性能与用户体验。
+## 1. 中文简介
+CodexDesk 是一款专为 AI 编码代理和 Codex 工作流设计的桌面伴侣应用。它为开发者提供了一个本地化的图形界面，用于管理和运行 AI 辅助编程任务，提升开发效率。
 
-### 2. 核心功能
-- 提供桌面 GUI 界面，方便与 AI 编程代理进行可视化交互
-- 支持 Codex 工作流集成，简化 AI 辅助编程操作
-- 作为本地桌面伴侣工具，提升开发者日常编程效率
-- 基于 Rust 构建，确保应用性能稳定且资源占用低
+## 2. 核心功能
+- 提供桌面级 GUI，方便与 AI 编码代理进行交互
+- 支持 Codex 工作流的本地化管理和执行
+- 集成 AI 编码助手，辅助代码生成与审查
+- 优化开发者生产力，简化 AI 编程工具的使用流程
 
-### 3. 适用场景
-- 需要频繁与 AI 编码代理协作的开发者日常编程工作
-- 希望将 Codex 工作流集成到桌面环境的场景
-- 追求高效生产力工具的开发者团队
+## 3. 适用场景
+- 需要本地运行 AI 编码代理的开发者
+- 希望将 Codex 工作流集成到日常开发中的团队
+- 追求更高生产力的 AI 辅助编程用户
 
-### 4. 技术亮点
-- 采用 Rust 语言开发，具备内存安全和高性能优势
-- 结合 GUI 与 AI agent 技术，实现本地友好的交互体验
+## 4. 技术亮点
+- 基于 Rust 构建，具备高性能和内存安全性
+- 采用桌面 GUI 设计，提供友好的用户体验
+- 专为 AI agent 工作流优化，适合开发者工具场景
 - 链接: https://github.com/BinaryDeliverer/CodexDesk
 - ⭐ 222 | 🍴 47 | 语言: Rust
 - 标签: agent, ai, codex, desktop, developer-tools
@@ -44,13 +45,13 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### warrenduffer
 - 描述: AI-driven intraday trading bot for Indian stocks. Jev ranks the Nifty 50 every 15s; code sizes each trade and places the stop; orders go live through Zerodha Kite or Kotak Neo. Day replay, kill switch, daily loss halt, terminal dashboard.
 - 链接: https://github.com/arimanyus/warrenduffer
-- ⭐ 70 | 🍴 21 | 语言: TypeScript
+- ⭐ 76 | 🍴 21 | 语言: TypeScript
 - 标签: ai-gateway, ai-trading, algorithmic-trading, backtesting, indian-stock-market
 
 ### ai-engineering-course
 - 描述: AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.
 - 链接: https://github.com/amitshekhariitbhu/ai-engineering-course
-- ⭐ 65 | 🍴 13 | 语言: Markdown
+- ⭐ 70 | 🍴 14 | 语言: Markdown
 - 标签: ai-course, ai-engineering, ai-engineering-course, ai-engineering-curriculum, large-language-models
 
 ### AstrLink
@@ -67,19 +68,19 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### YuE2-Studio
 - 描述: Local AI song generator with an editable score — YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update.
 - 链接: https://github.com/timoncool/YuE2-Studio
-- ⭐ 37 | 🍴 3 | 语言: TypeScript
+- ⭐ 45 | 🍴 3 | 语言: TypeScript
 - 标签: abc-notation, ai-music, covers, cuda, ggml
 
 ### Intent-Router
 - 描述: Intent compiler for AI agents — converges vague requests into typed IntentSpec contracts (probe, ask, or halt before routing), the input layer for routers and typed-decision models like Jev & Laya
 - 链接: https://github.com/angel291592/Intent-Router
-- ⭐ 32 | 🍴 4 | 语言: Python
+- ⭐ 38 | 🍴 4 | 语言: Python
 - 标签: agent-skills, agentic, ai-agents, clarification, claude-code
 
-### cc-usage
-- 描述: 跨平台 AI 编程助手用量监控桌面应用，统一查看 Claude、Codex 等平台的额度、Token、费用与请求记录。
-- 链接: https://github.com/haishishushu/cc-usage
-- ⭐ 28 | 🍴 2 | 语言: Rust
+### yard-sale
+- 描述: Yard Sale Gold — AI-powered yard sale scanner built with React and Cloudflare Workers
+- 链接: https://github.com/wesbos/yard-sale
+- ⭐ 34 | 🍴 9 | 语言: TypeScript
 
 ## 热门AI项目
 
@@ -93,7 +94,7 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36960 | 🍴 7482 | 语言: 未知
+- ⭐ 36964 | 🍴 7483 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
@@ -105,7 +106,7 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### cs249r_book
 - 描述: Machine Learning Systems: Foundations, Scaling, Agentic AI, and Physical AI (Vols I–IV) • Harvard CS249r | https://mlsysbook.ai
 - 链接: https://github.com/harvard-edge/cs249r_book
-- ⭐ 28427 | 🍴 3596 | 语言: Python
+- ⭐ 28428 | 🍴 3596 | 语言: Python
 - 标签: agentic-ai, ai-agents, artificial-intelligence, cloud-ml, computer-systems
 
 ### onnx
@@ -117,7 +118,7 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### ml-engineering
 - 描述: Machine Learning Engineering Open Book
 - 链接: https://github.com/stas00/ml-engineering
-- ⭐ 19035 | 🍴 1249 | 语言: Python
+- ⭐ 19036 | 🍴 1249 | 语言: Python
 - 标签: ai, debugging, gpus, inference, large-language-models
 
 ### ML-YouTube-Courses
@@ -149,7 +150,7 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36960 | 🍴 7482 | 语言: 未知
+- ⭐ 36964 | 🍴 7483 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### netron
@@ -216,19 +217,19 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### LlamaFactory
 - 描述: Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 - 链接: https://github.com/hiyouga/LlamaFactory
-- ⭐ 74993 | 🍴 9183 | 语言: Python
+- ⭐ 74995 | 🍴 9184 | 语言: Python
 - 标签: agent, ai, deepseek, fine-tuning, gemma
 
 ### AI-For-Beginners
 - 描述: 12 Weeks, 24 Lessons, AI for All!
 - 链接: https://github.com/microsoft/AI-For-Beginners
-- ⭐ 68906 | 🍴 13336 | 语言: Jupyter Notebook
+- ⭐ 68910 | 🍴 13337 | 语言: Jupyter Notebook
 - 标签: ai, artificial-intelligence, cnn, computer-vision, deep-learning
 
 ### ai-engineering-from-scratch
 - 描述: Learn it. Build it. Ship it for others.
 - 链接: https://github.com/rohitg00/ai-engineering-from-scratch
-- ⭐ 55735 | 🍴 9832 | 语言: Python
+- ⭐ 55770 | 🍴 9848 | 语言: Python
 - 标签: agents, ai, ai-agents, ai-engineering, computer-vision
 
 ### ailearning
@@ -240,7 +241,7 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36960 | 🍴 7482 | 语言: 未知
+- ⭐ 36964 | 🍴 7483 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### spaCy
@@ -258,7 +259,7 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### datasets
 - 描述: 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools
 - 链接: https://github.com/huggingface/datasets
-- ⭐ 22004 | 🍴 3456 | 语言: Python
+- ⭐ 22005 | 🍴 3457 | 语言: Python
 - 标签: ai, artificial-intelligence, computer-vision, dataset-hub, datasets
 
 ### ML-YouTube-Courses
@@ -272,19 +273,19 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
 - 描述: 500 AI Machine learning Deep learning Computer vision NLP Projects with code
 - 链接: https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-- ⭐ 36960 | 🍴 7482 | 语言: 未知
+- ⭐ 36964 | 🍴 7483 | 语言: 未知
 - 标签: artificial-intelligence, artificial-intelligence-projects, awesome, computer-vision, computer-vision-project
 
 ### skyvern
 - 描述: Automate browser based workflows with AI
 - 链接: https://github.com/Skyvern-AI/skyvern
-- ⭐ 23057 | 🍴 2175 | 语言: Python
+- ⭐ 23059 | 🍴 2175 | 语言: Python
 - 标签: ai, api, automation, browser, browser-automation
 
 ### cvat
 - 描述: Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.
 - 链接: https://github.com/cvat-ai/cvat
-- ⭐ 16780 | 🍴 3883 | 语言: Python
+- ⭐ 16781 | 🍴 3883 | 语言: Python
 - 标签: annotation, annotation-tool, annotations, boundingbox, computer-vision
 
 ### pytorch-grad-cam
@@ -334,60 +335,60 @@ CodexDesk 是一款专为 AI 编程代理和 Codex 工作流设计的桌面端�
 ### openclaw
 - 描述: The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 
 - 链接: https://github.com/openclaw/openclaw
-- ⭐ 390333 | 🍴 82114 | 语言: TypeScript
+- ⭐ 390342 | 🍴 82118 | 语言: TypeScript
 - 标签: ai, assistant, crustacean, molty, openclaw
 
 ### superpowers
 - 描述: An agentic skills framework & software development methodology that works.
 - 链接: https://github.com/obra/superpowers
-- ⭐ 290590 | 🍴 26006 | 语言: Shell
+- ⭐ 290649 | 🍴 26008 | 语言: Shell
 - 标签: ai, brainstorming, coding, obra, sdlc
 
 ### hermes-agent
 - 描述: The agent that grows with you
 - 链接: https://github.com/NousResearch/hermes-agent
-- ⭐ 248347 | 🍴 52480 | 语言: Python
+- ⭐ 248380 | 🍴 52497 | 语言: Python
 - 标签: ai, ai-agent, ai-agents, anthropic, chatgpt
 
 ### n8n
 - 描述: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 - 链接: https://github.com/n8n-io/n8n
-- ⭐ 205777 | 🍴 60862 | 语言: TypeScript
+- ⭐ 205797 | 🍴 60862 | 语言: TypeScript
 - 标签: ai, apis, automation, cli, data-flow
 
 ### AutoGPT
 - 描述: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - 链接: https://github.com/Significant-Gravitas/AutoGPT
-- ⭐ 187515 | 🍴 45998 | 语言: Python
+- ⭐ 187516 | 🍴 45998 | 语言: Python
 - 标签: agentic-ai, agents, ai, artificial-intelligence, autonomous-agents
 
 ### firecrawl
 - 描述: The web data API to search, scrape, and interact at scale. 🔥
 - 链接: https://github.com/firecrawl/firecrawl
-- ⭐ 183777 | 🍴 9902 | 语言: TypeScript
+- ⭐ 183834 | 🍴 9903 | 语言: TypeScript
 - 标签: ai, ai-agents, ai-crawler, ai-scraping, ai-search
 
 ### prompts.chat
 - 描述: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - 链接: https://github.com/f/prompts.chat
-- ⭐ 171107 | 🍴 21982 | 语言: HTML
+- ⭐ 171119 | 🍴 21983 | 语言: HTML
 - 标签: ai, artificial-intelligence, awesome-list, chatgpt, chatgpt-prompts
 
 ### stable-diffusion-webui
 - 描述: Stable Diffusion web UI
 - 链接: https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- ⭐ 165083 | 🍴 31285 | 语言: Python
+- ⭐ 165085 | 🍴 31294 | 语言: Python
 - 标签: ai, ai-art, deep-learning, diffusion, gradio
 
 ### JavaGuide
 - 描述: Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 - 链接: https://github.com/Snailclimb/JavaGuide
-- ⭐ 158842 | 🍴 46140 | 语言: JavaScript
+- ⭐ 158844 | 🍴 46140 | 语言: JavaScript
 - 标签: agent, ai, context-engineering, deepseek, interview
 
 ### dify
 - 描述: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 - 链接: https://github.com/langgenius/dify
-- ⭐ 156983 | 🍴 24740 | 语言: TypeScript
+- ⭐ 156994 | 🍴 24739 | 语言: TypeScript
 - 标签: agent, agentic-ai, agentic-framework, agentic-workflow, ai
 
